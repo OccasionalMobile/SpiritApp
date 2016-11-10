@@ -1,0 +1,12 @@
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.Platform.dll
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.Platform.iOS.dll
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.Core.dll
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.iOS.dll
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.Binding.dll
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.Binding.iOS.dll
+/Users/max/DEV/SpiritApplication/ParkSpirit/IOS/bin/iPhoneSimulator/Debug/MvvmCross.Localization.dll

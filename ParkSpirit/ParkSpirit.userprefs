@@ -1,1 +1,41 @@
-﻿<Properties StartupConfiguration="{59EF6D3C-11DD-4BC6-BF07-B852EDA64E5A}|Default" />
+﻿<Properties StartupConfiguration="{59EF6D3C-11DD-4BC6-BF07-B852EDA64E5A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Mono.framework/Versions/4.6.1/lib/mono/xbuild/14.0/bin/Microsoft.Common.targets">
+    <Files>
+      <File FileName="ParkSpirit/ViewModels/FirstViewModel.cs" Line="6" Column="23" />
+      <File FileName="ParkSpirit/ViewModels/MapViewModel.cs" Line="9" Column="4" />
+      <File FileName="Droid/Views/MapView.cs" Line="21" Column="4" />
+      <File FileName="Droid/Views/FirstView.cs" Line="2" Column="14" />
+      <File FileName="Droid/Resources/layout/MyMapView.cs" Line="1" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/4.6.1/lib/mono/xbuild/14.0/bin/Microsoft.Common.targets" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ParkSpirit" expanded="True" selected="True">
+            <Node name="ParkSpirit" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="ParkSpirit.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ParkSpirit.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
+  <DisabledProjects>
+    <String>IOS/ParkSpirit.IOS.csproj</String>
+  </DisabledProjects>
+</Properties>

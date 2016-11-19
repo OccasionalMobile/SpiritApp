@@ -1,0 +1,7 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:local="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="40dp" /><!--
+
+    <FrameLayout>
+        android:layout_width="match_parent"
+        android:background="#AA000000"
+	</FrameLayout>
+			--><FrameLayout android:background="#32CD32" android:layout_width="match_parent" android:layout_height="50dp" /><com.google.android.gms.maps.MapView android:layout_width="match_parent" android:layout_height="match_parent" /><TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="40dp" android:background="#32CD32" android:text="Text Hello" /><FrameLayout android:background="#FD6C9E" android:layout_width="match_parent" android:layout_height="50dp" /></LinearLayout>

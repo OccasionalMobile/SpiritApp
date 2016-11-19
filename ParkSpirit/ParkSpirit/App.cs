@@ -11,7 +11,7 @@ namespace ParkSpirit
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.FirstViewModel>();
+            RegisterAppStart<ViewModels.MapViewModel>();
         }
     }
 }

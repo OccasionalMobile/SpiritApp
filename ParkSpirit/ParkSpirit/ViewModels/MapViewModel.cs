@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.Core.ViewModels;
 
-namespace ParkSpirit
+namespace ParkSpirit.ViewModels
 {
 	public class MapViewModel: MvxViewModel
 	{

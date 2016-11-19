@@ -1,0 +1,1637 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Cartes des parcs Spirit</name>
+		<description><![CDATA[]]></description>
+		<Folder>
+			<name>V.E.F.A. :Parcs en cours de commercialisation</name>
+			<Placemark>
+				<name>77 - Bailly-Romainvilliers - Parc Spirit Val d'Europe</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/_ublAZsjWpDVFnbMoA4cKIPJwMC9Lhar0uy0QoDqdowSiX9A9nB66UECZbfgBwfGmm4DLJnFT2KpJ6bSJyL8rdzIqMi68lNcda42vIAPZcxN9R9j5Kd-lyQgHgH3si9mcAVk3cSXUH3r8MpvOrvmA_oXG28t9jwTbguwOlr-HLmsxTlW80oscSJ8q4hznIIqDiv-shgHxjPT1CBNdUsOjJE85BLrVChjbnvLzRcxT4KFqP9FTG14COxaJONysJ0ACGFcCo4W4GSk0D4XrLpFMCghY4t20yC-NmMZicvjBbux0SAKXExkGCtE6y8M49E5HBJ_iYBB11pSd9L29X5RlwQq" height="200" width="auto" /><br><br>Commune: Bailly Romainvilliers (77) - ZAC du Prieuré<br>Description: 5 700 m² de locaux d'activités et bureaux divisibles à partir de 320 m²<br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfdThpc29XV3otbWs?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Bailly Romainvilliers (77) - ZAC du Prieuré</value>
+					</Data>
+					<Data name='Description'>
+						<value>5 700 m² de locaux d'activités et bureaux divisibles à partir de 320 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfdThpc29XV3otbWs?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/proxy/_ublAZsjWpDVFnbMoA4cKIPJwMC9Lhar0uy0QoDqdowSiX9A9nB66UECZbfgBwfGmm4DLJnFT2KpJ6bSJyL8rdzIqMi68lNcda42vIAPZcxN9R9j5Kd-lyQgHgH3si9mcAVk3cSXUH3r8MpvOrvmA_oXG28t9jwTbguwOlr-HLmsxTlW80oscSJ8q4hznIIqDiv-shgHxjPT1CBNdUsOjJE85BLrVChjbnvLzRcxT4KFqP9FTG14COxaJONysJ0ACGFcCo4W4GSk0D4XrLpFMCghY4t20yC-NmMZicvjBbux0SAKXExkGCtE6y8M49E5HBJ_iYBB11pSd9L29X5RlwQq</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.800355,48.844116,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>77 - Bussy-Saint-Georges - Parc Spirit Graham Bell</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/-rS9gi1pzoYC2NEdAeYqp8yxX9pE8F13NctvU98gy-mzo0o2AmVjgxWdmzDZP5g5ZUdTR7UtG-P_wfKHz4WXBlWopMnEa-xugPVpjhmByhfO2Z_fS6ZmR68JInFVP6k9rcWnLWTw-kqMzQO93kcG5weFFesrPyJVI3TFyxyO7gEkoYuK0r2YypL7kFxR1wCKq_WFl-QBpm6YSooWV8n1NIe-U97ok_-Fd958EZwNMs_tGlUspBCGs0bqZuWnOuePvuAm30ZB7MGnsoYLM3k" height="200" width="auto" /><br><br>Commune: Bussy Saint Georges (77) - ZAC Léonard de Vinci<br>Description: 2 300 m² de locaux d'activités et bureaux divisibles à partir de 400 m²<br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfX0xrRzhkaEpyeUU?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Bussy Saint Georges (77) - ZAC Léonard de Vinci</value>
+					</Data>
+					<Data name='Description'>
+						<value>2 300 m² de locaux d'activités et bureaux divisibles à partir de 400 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfX0xrRzhkaEpyeUU?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/proxy/-rS9gi1pzoYC2NEdAeYqp8yxX9pE8F13NctvU98gy-mzo0o2AmVjgxWdmzDZP5g5ZUdTR7UtG-P_wfKHz4WXBlWopMnEa-xugPVpjhmByhfO2Z_fS6ZmR68JInFVP6k9rcWnLWTw-kqMzQO93kcG5weFFesrPyJVI3TFyxyO7gEkoYuK0r2YypL7kFxR1wCKq_WFl-QBpm6YSooWV8n1NIe-U97ok_-Fd958EZwNMs_tGlUspBCGs0bqZuWnOuePvuAm30ZB7MGnsoYLM3k</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.693732,48.833566,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>77 - Collégien - Parc Spirit de l'Amirault</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/ph3oRfr512CvkwYkd2DViJ7yOPOIJ7eMawGm4I78QoX5tCOEUn8ok1TUbeLZzBB5v3NvyLngIKtyWHbEruaUBrznCbbDwTTgULuMbsFtn1fvVdu5dKSHTo27OibBIPI" height="200" width="auto" /><br><br>Commune: Collégien (77) - ZAC de Lamirault<br>Description: 20 000 m² de locaux d'activités et bureaux<br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfRW9ubzNwZlY1eVU?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Collégien (77) - ZAC de Lamirault</value>
+					</Data>
+					<Data name='Description'>
+						<value>20 000 m² de locaux d'activités et bureaux</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfRW9ubzNwZlY1eVU?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/ph3oRfr512CvkwYkd2DViJ7yOPOIJ7eMawGm4I78QoX5tCOEUn8ok1TUbeLZzBB5v3NvyLngIKtyWHbEruaUBrznCbbDwTTgULuMbsFtn1fvVdu5dKSHTo27OibBIPI</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.678647,48.824441,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78 - Bois d'Arcy - Parc Spirit Méliès III</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/eTIDNT_lgFtZ_3PjKCDEZabQXYrgI8KbWTeyTZXyW3QuICwpo9OOiY0GD3Z47Vp7v1uYKbNcO2CfO6-U_q1v7tF_XBpSuutB4cTGmz-0GOIeGuvRsQ2i0qPKzXXqsRsNJRwx_-Y82kP-4ZxoKdxpBtFhHwaVAXIqMUx3IG8fQMJFEI7HYy9hZ2SOXYV6-2n61gX8xeG8hqjShbe2mwmV35cw92b-fcPGziVcHX-FoNf92o6QdOhQW54IpduuBdVDld-YFT-_Wmpk8Ok859_53FRr7ydKAU8orMbkHZ6vg-QH8SDCsAl-P4uvB_I_tHKIDiVNifwllJ7OASRTSFG4xvQpEm1wqEHgBBzN-SfJF_YIA-zXJ5Q" height="200" width="auto" /><br><br>Commune: Bois d'Arcy (78) - ZAC de la Croix Bonnet <br>Description: Parc achevé en 2016<br>Interlocuteur: Alix BERTINETTI - 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfMUxCZmplNl91Zjg?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Bois d'Arcy (78) - ZAC de la Croix Bonnet </value>
+					</Data>
+					<Data name='Description'>
+						<value>Parc achevé en 2016</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI - 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfMUxCZmplNl91Zjg?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/proxy/eTIDNT_lgFtZ_3PjKCDEZabQXYrgI8KbWTeyTZXyW3QuICwpo9OOiY0GD3Z47Vp7v1uYKbNcO2CfO6-U_q1v7tF_XBpSuutB4cTGmz-0GOIeGuvRsQ2i0qPKzXXqsRsNJRwx_-Y82kP-4ZxoKdxpBtFhHwaVAXIqMUx3IG8fQMJFEI7HYy9hZ2SOXYV6-2n61gX8xeG8hqjShbe2mwmV35cw92b-fcPGziVcHX-FoNf92o6QdOhQW54IpduuBdVDld-YFT-_Wmpk8Ok859_53FRr7ydKAU8orMbkHZ6vg-QH8SDCsAl-P4uvB_I_tHKIDiVNifwllJ7OASRTSFG4xvQpEm1wqEHgBBzN-SfJF_YIA-zXJ5Q</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.004415,48.803684,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78 - Saint-Cyr-l'Ecole - Parc Spirit de la ZAC Charles-Renard </name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/sAfwcwbHN1P9SwCmzbWGwpG9dHOgrP9yoDbLDAxuI5rVhnfDOdRVtX3yqHBTbLwaN2ZMZH6CAKd_QihH7dTjP9KKtZ8P1y-7wbuPvz-6WhMh5dfk0NAdjYNYSaAI1dwYxg" height="200" width="auto" /><br><br>Commune: Saint-Cyr-l'Ecole (78) / ZAC Charles Renard<br>Description: 10 727 m² de locaux d'activités et bureaux divisibles à partir de 430 m² <br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfSUtORFQ2RGRZSFU?usp=sharing]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Saint-Cyr-l'Ecole (78) / ZAC Charles Renard</value>
+					</Data>
+					<Data name='Description'>
+						<value>10 727 m² de locaux d'activités et bureaux divisibles à partir de 430 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfSUtORFQ2RGRZSFU?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/sAfwcwbHN1P9SwCmzbWGwpG9dHOgrP9yoDbLDAxuI5rVhnfDOdRVtX3yqHBTbLwaN2ZMZH6CAKd_QihH7dTjP9KKtZ8P1y-7wbuPvz-6WhMh5dfk0NAdjYNYSaAI1dwYxg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.0644426,48.8093648,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 - Lisses - Parc Spirit du Bois Chaland</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/ntu2zkaKkYj5aB6V2KMqjIgTGmD0eEE_WWy3a0hfk2R91VvP1oT67Wnnzpc9pkyHAiC9mk47_hO9UK2Zr9z_iJK9GyjNQQTzKGq5PbHlEm4C3FFdMlIdfj9f-M5YqQaAeXMvT7GH0Yl3_EnjmgdUAMmmboxCWEldXq_PKiB4lGn6Xo2LZnUKq0jN6jk4uwGNLl1qVO3jVqoQ2K_BrFR0CJrcJONAma4UFViO69hyMhqoDdM_Vnbt6hS10Ye896yMovs1JifoRnrgodqykJRpwRIINg5ZWHbrbbjpNJWNxDdDtYJJXJ-1UiIm_NLU8zGo_E-mzA" height="200" width="auto" /><br><br>Commune: Lisses (91) - ZAC du Bois Chaland<br>Description: 4 000 m² de locaux d'activités et bureaux divisibles à partir de 300 m²<br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfbTZkQk53SFpaT0E?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Lisses (91) - ZAC du Bois Chaland</value>
+					</Data>
+					<Data name='Description'>
+						<value>4 000 m² de locaux d'activités et bureaux divisibles à partir de 300 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfbTZkQk53SFpaT0E?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/proxy/ntu2zkaKkYj5aB6V2KMqjIgTGmD0eEE_WWy3a0hfk2R91VvP1oT67Wnnzpc9pkyHAiC9mk47_hO9UK2Zr9z_iJK9GyjNQQTzKGq5PbHlEm4C3FFdMlIdfj9f-M5YqQaAeXMvT7GH0Yl3_EnjmgdUAMmmboxCWEldXq_PKiB4lGn6Xo2LZnUKq0jN6jk4uwGNLl1qVO3jVqoQ2K_BrFR0CJrcJONAma4UFViO69hyMhqoDdM_Vnbt6hS10Ye896yMovs1JifoRnrgodqykJRpwRIINg5ZWHbrbbjpNJWNxDdDtYJJXJ-1UiIm_NLU8zGo_E-mzA</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.433456,48.604397,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 - Saint-Pierre-du-Perray - Parc Spirit de la Clé St Pierre</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/MXlRbOkxk8KUesIwJpi2mC8CDNEokpPIGIoM6Dy0aSvZ7d62-8zW8Km-MTcs8qfDslNyoVFsCMfOdv38veNL_VGPvVW3tVcM-gyrOiA4VjaAmihlw04uFpQcoquwQWL0" height="200" width="auto" /><br><br>Commune: Saint-Pierre-du-Perray (91) - ZAC de Clé Saint Pierre<br>Description: 18 000 m² de locaux d'activités et bureaux divisibles à partir de 400 m²<br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfVHNLMXhXR3pIVW8?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Saint-Pierre-du-Perray (91) - ZAC de Clé Saint Pierre</value>
+					</Data>
+					<Data name='Description'>
+						<value>18 000 m² de locaux d'activités et bureaux divisibles à partir de 400 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfVHNLMXhXR3pIVW8?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/MXlRbOkxk8KUesIwJpi2mC8CDNEokpPIGIoM6Dy0aSvZ7d62-8zW8Km-MTcs8qfDslNyoVFsCMfOdv38veNL_VGPvVW3tVcM-gyrOiA4VjaAmihlw04uFpQcoquwQWL0</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.524903,48.617633,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 - Villebon-sur-Yvette - Parc Spirit de l'Atlantique</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/6CVcPv3b-pw0OQSIg6DCWtLr5sIC05Y3_TYWN7_iOemzH6W-sbAhRQmoxhuag_4WD7E2Dc3kfQD7vDRbsZRwiexMB_SWqFTts7WvaOI0ecK2IuIN2VVwKbNkb4Tysa4i" height="200" width="auto" /><br><br>Commune: Villebon s/ Yvette (91) - ZAC de l'Atlantique<br>Description: 10 000 m² de locaux d'activités et bureaux divisibles à partir de 328 m²<br>Interlocuteur: Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfMm5hODNlRmpIXzQ?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Villebon s/ Yvette (91) - ZAC de l'Atlantique</value>
+					</Data>
+					<Data name='Description'>
+						<value>10 000 m² de locaux d'activités et bureaux divisibles à partir de 328 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Guillaume BORJEIX: 06 66 61 71 27 - gborjeix@spirit.net / Sébastien MURIE: 07 79 76 77 62 - smurie@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfMm5hODNlRmpIXzQ?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/6CVcPv3b-pw0OQSIg6DCWtLr5sIC05Y3_TYWN7_iOemzH6W-sbAhRQmoxhuag_4WD7E2Dc3kfQD7vDRbsZRwiexMB_SWqFTts7WvaOI0ecK2IuIN2VVwKbNkb4Tysa4i</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.2322848,48.6913715,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Pierrefitte - Parc Spirit Séverine</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ndCIDETFSjeupz8YOEG0HgMP9CWXAR284SoCaFtzg5UokMVx741VsTQkNqAg9wAJhMU6N9xAuzQO9S6mkWEKwIEAom9DUGGOTJFHGZx4mZmKb8Ggd33ow5L0HoHzvZnYQuecgAu8T1Qk6i1o9TZlgjSwi2TMEZlarFEFkVURuvhdh8GkDHXNmi4VBHlKBLwA-cFxdv7CgQY6DXCBNFrE0JFCxTVffH7wailVukBF-WWUfc3y2Oc98mb-BRAgPMb17GYaC0c89wlqsSOGEWxbFJQlR0pXvax6SDo4lcEZQ9o" height="200" width="auto" /><br><br>Commune: Pierrefitte (93)<br>Description: Parc achevé en 2016<br>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfNGl6RmxkTThEa28?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Pierrefitte (93)</value>
+					</Data>
+					<Data name='Description'>
+						<value>Parc achevé en 2016</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfNGl6RmxkTThEa28?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/proxy/ndCIDETFSjeupz8YOEG0HgMP9CWXAR284SoCaFtzg5UokMVx741VsTQkNqAg9wAJhMU6N9xAuzQO9S6mkWEKwIEAom9DUGGOTJFHGZx4mZmKb8Ggd33ow5L0HoHzvZnYQuecgAu8T1Qk6i1o9TZlgjSwi2TMEZlarFEFkVURuvhdh8GkDHXNmi4VBHlKBLwA-cFxdv7CgQY6DXCBNFrE0JFCxTVffH7wailVukBF-WWUfc3y2Oc98mb-BRAgPMb17GYaC0c89wlqsSOGEWxbFJQlR0pXvax6SDo4lcEZQ9o</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.35779,48.961036,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Villetaneuse - Parc Spirit de l'université</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/-JlEQFMhBQdMZgrKqBRVSvcVxQZZOn6EjQd1Nxr42wnE2qq2ZTTkfVz6Sji0nx-o9LuNqoBq3rEB1u58mJwhz039h5cs_yQMG8eBHDXl1HE1q3paMAy3c47KUpwMnVxRNdZDH2h5wKIZW1PnYe6U3yEWx1jDqUnY6MkOmHAjHB6q7WVn5Oqm7D28bjLEGTj9INKMY_IyhAAPveOcnciPMl-xQaM1MfminYCn8o1k601M_II5yADOTDFJX14BcEVGHqMFAVUzbybtnUs5Tr-bcmo85ijfqgjkYoytHHC9orZTPufSgvg" height="200" width="auto" /><br><br>Commune: Villetaneuse (93)<br>Description: Parc achevé en 2016<br>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfZVd6OFBDSlhVWFU?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Villetaneuse (93)</value>
+					</Data>
+					<Data name='Description'>
+						<value>Parc achevé en 2016</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfZVd6OFBDSlhVWFU?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/proxy/-JlEQFMhBQdMZgrKqBRVSvcVxQZZOn6EjQd1Nxr42wnE2qq2ZTTkfVz6Sji0nx-o9LuNqoBq3rEB1u58mJwhz039h5cs_yQMG8eBHDXl1HE1q3paMAy3c47KUpwMnVxRNdZDH2h5wKIZW1PnYe6U3yEWx1jDqUnY6MkOmHAjHB6q7WVn5Oqm7D28bjLEGTj9INKMY_IyhAAPveOcnciPMl-xQaM1MfminYCn8o1k601M_II5yADOTDFJX14BcEVGHqMFAVUzbybtnUs5Tr-bcmo85ijfqgjkYoytHHC9orZTPufSgvg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.345527,48.958595,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95 - Cormeilles-en-Parisis - Parc Spirit des Bois Rochefort</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/9NS_iJ1_CXJBMoU3i2qiH4eVM1heICsp1x4fgGYjc8zKqm-p_150XaJCI60FBS7-UQceJBPeWIqY2ksKpLKvOxApr0GmBcJnR_N0JPLaZAhWCamBbiOU52XjerUuyps0" height="200" width="auto" /><br><br>Commune: Cormeilles-en-Parisis (95) - ZAC des Bois Rochefort<br>Description: Parc achevé en 2016<br>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfNnFiU2c0U1pRT1k?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Cormeilles-en-Parisis (95) - ZAC des Bois Rochefort</value>
+					</Data>
+					<Data name='Description'>
+						<value>Parc achevé en 2016</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfNnFiU2c0U1pRT1k?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/9NS_iJ1_CXJBMoU3i2qiH4eVM1heICsp1x4fgGYjc8zKqm-p_150XaJCI60FBS7-UQceJBPeWIqY2ksKpLKvOxApr0GmBcJnR_N0JPLaZAhWCamBbiOU52XjerUuyps0</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.192159,48.952381,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95 - Cormeilles-en-Parisis - Parc Spirit des Bois Rochefort II</name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/CFVD3MrDRnLuAN9laX0f5SAsRuQFKCNu707k5_z-9xJbNrus5e3pzNjJq_-aLF97-vHLsrRBHZJX5Es-G4bhzSbsTbqcGZH97R1DcmUM9E-07g4h6gm2c9NCRr-cSBg" height="200" width="auto" /><br><br>Commune: Cormeilles-en-Parisis (95) - ZAC des Bois Rochefort<br>Description: 33 000 m² de locaux d'activités et bureaux divisibles à partir de 380 m²<br>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfcmJjaWtTeWU1a0k?usp=sharing]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Cormeilles-en-Parisis (95) - ZAC des Bois Rochefort</value>
+					</Data>
+					<Data name='Description'>
+						<value>33 000 m² de locaux d'activités et bureaux divisibles à partir de 380 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfcmJjaWtTeWU1a0k?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/CFVD3MrDRnLuAN9laX0f5SAsRuQFKCNu707k5_z-9xJbNrus5e3pzNjJq_-aLF97-vHLsrRBHZJX5Es-G4bhzSbsTbqcGZH97R1DcmUM9E-07g4h6gm2c9NCRr-cSBg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.19203,48.9519724,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95 - Neuville-sur-Oise - Parc Spirit de Neuville Université</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/8f1ttrKmJBW0NOy8_ZvzCMEzni81ildUAO4VBn1_tWpBpT89aGfa2ix_rlSqHfc4tUv090GezJqQj_dYSHRnUSebzJS27h17ROJSiAR1370IWjE1GYoT6wxpkEQ_8Qs" height="200" width="auto" /><br><br>Commune: Neuville-sur-Oise (95) <br>Description: 8 500 m² de locaux d'activités et bureaux divisibles à partir de 468 m²<br>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfR2wyc3NEcUdzOXM?usp=sharing]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Neuville-sur-Oise (95) </value>
+					</Data>
+					<Data name='Description'>
+						<value>8 500 m² de locaux d'activités et bureaux divisibles à partir de 468 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfR2wyc3NEcUdzOXM?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/8f1ttrKmJBW0NOy8_ZvzCMEzni81ildUAO4VBn1_tWpBpT89aGfa2ix_rlSqHfc4tUv090GezJqQj_dYSHRnUSebzJS27h17ROJSiAR1370IWjE1GYoT6wxpkEQ_8Qs</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.0759332,49.0149619,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95 - Frépillon - Parc Spirit des Epineaux</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/hroMC99QhcHIiCwMuHfkWN78TxZOG5qVcab9u3HG1JUL5mC6aOn2JXGh92QwmsAqKYg0V30n5ApNaZs-pIj9pqhpBBdxhrVsI-H2yPC_vPSynJ2BuPEL5Np-yzaNY5_18g" height="200" width="auto" /><br><br>Commune: Frépillon (95) - ZAC des Epineaux<br>Description: 9 000 m² de locaux d'activités et bureaux divisibles à partir de 400 m²<br>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfQmRTLUIzT092aXc?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Frépillon (95) - ZAC des Epineaux</value>
+					</Data>
+					<Data name='Description'>
+						<value>9 000 m² de locaux d'activités et bureaux divisibles à partir de 400 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfQmRTLUIzT092aXc?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/hroMC99QhcHIiCwMuHfkWN78TxZOG5qVcab9u3HG1JUL5mC6aOn2JXGh92QwmsAqKYg0V30n5ApNaZs-pIj9pqhpBBdxhrVsI-H2yPC_vPSynJ2BuPEL5Np-yzaNY5_18g</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.187781,49.046265,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Location. : Parcs en cours de commercialisation</name>
+			<Placemark>
+				<name>77 - Bussy-Saint-Georges - Parc Spirit Graham Bell</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/NeKtpKkySjHmfMEtrYVyKS4hwmLbozHtLfMxsU1_sUU4Pc0L_1F_MCvcqzPvs-7KUMfCneHxmAdUIvnwDndkIiejY0nbBG2b9QjONxMTvmia5y1oepfjTkAPoAdFX0xF8cz99vDLSJXmBsYjtKIleOZR30FMcJTFzdOupZSyRCirXTU4kn6LEyXAPgkb4Br9CrgkHJSeeSZ_7n-SgyC9LuCAseIg8X2d-a6C3QPiOhtGf-59wrR82PXEdWE3qhqQ9XAT8mC8hKZTkZCaUIR9ZLhcmH0rV_0Upq2nWj5jNVDaI5ys32Awq1QSiA" height="200" width="auto" /><br><br>Commune: Bussy-Saint-Georges (77) - ZAC Léonard de Vinci<br>Description: 12 000 m² de locaux d'activités et bureaux divisibles à partir de 417 m²<br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfX0xrRzhkaEpyeUU?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Bussy-Saint-Georges (77) - ZAC Léonard de Vinci</value>
+					</Data>
+					<Data name='Description'>
+						<value>12 000 m² de locaux d'activités et bureaux divisibles à partir de 417 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfX0xrRzhkaEpyeUU?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/proxy/NeKtpKkySjHmfMEtrYVyKS4hwmLbozHtLfMxsU1_sUU4Pc0L_1F_MCvcqzPvs-7KUMfCneHxmAdUIvnwDndkIiejY0nbBG2b9QjONxMTvmia5y1oepfjTkAPoAdFX0xF8cz99vDLSJXmBsYjtKIleOZR30FMcJTFzdOupZSyRCirXTU4kn6LEyXAPgkb4Br9CrgkHJSeeSZ_7n-SgyC9LuCAseIg8X2d-a6C3QPiOhtGf-59wrR82PXEdWE3qhqQ9XAT8mC8hKZTkZCaUIR9ZLhcmH0rV_0Upq2nWj5jNVDaI5ys32Awq1QSiA</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.692136,48.83341,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78 - Bois d'Arcy - Parc Spirit Méliès 3</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/eTIDNT_lgFtZ_3PjKCDEZabQXYrgI8KbWTeyTZXyW3QuICwpo9OOiY0GD3Z47Vp7v1uYKbNcO2CfO6-U_q1v7tF_XBpSuutB4cTGmz-0GOIeGuvRsQ2i0qPKzXXqsRsNJRwx_-Y82kP-4ZxoKdxpBtFhHwaVAXIqMUx3IG8fQMJFEI7HYy9hZ2SOXYV6-2n61gX8xeG8hqjShbe2mwmV35cw92b-fcPGziVcHX-FoNf92o6QdOhQW54IpduuBdVDld-YFT-_Wmpk8Ok859_53FRr7ydKAU8orMbkHZ6vg-QH8SDCsAl-P4uvB_I_tHKIDiVNifwllJ7OASRTSFG4xvQpEm1wqEHgBBzN-SfJF_YIA-zXJ5Q" height="200" width="auto" /><br><br>Commune: Bois d'Arcy (78) -  ZAC de la Croix Bonnet <br>Description: 5 500 m² de locaux d'activités et bureaux divisibles à partir de 407 m²<br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfMUxCZmplNl91Zjg?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Bois d'Arcy (78) -  ZAC de la Croix Bonnet </value>
+					</Data>
+					<Data name='Description'>
+						<value>5 500 m² de locaux d'activités et bureaux divisibles à partir de 407 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfMUxCZmplNl91Zjg?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/proxy/eTIDNT_lgFtZ_3PjKCDEZabQXYrgI8KbWTeyTZXyW3QuICwpo9OOiY0GD3Z47Vp7v1uYKbNcO2CfO6-U_q1v7tF_XBpSuutB4cTGmz-0GOIeGuvRsQ2i0qPKzXXqsRsNJRwx_-Y82kP-4ZxoKdxpBtFhHwaVAXIqMUx3IG8fQMJFEI7HYy9hZ2SOXYV6-2n61gX8xeG8hqjShbe2mwmV35cw92b-fcPGziVcHX-FoNf92o6QdOhQW54IpduuBdVDld-YFT-_Wmpk8Ok859_53FRr7ydKAU8orMbkHZ6vg-QH8SDCsAl-P4uvB_I_tHKIDiVNifwllJ7OASRTSFG4xvQpEm1wqEHgBBzN-SfJF_YIA-zXJ5Q</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.004369,48.803846,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78 - Saint-Cyr-l'Ecole - Parc Spirit de la ZAC Charles-Renard </name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/d2YehnZRcWQxL9HWNeOIeipBQcQGA93_ZZevk2ORfDDJa8bTlLQK7Q5NrDSGBoIhirfUh9zBzOuTrVEciVGBsk7MeSz8YRkqaQYR_Fz-TEzzZktGa1sryetmPPQid6U" height="200" width="auto" /><br><br>Commune: Saint-Cyr-l'Ecole (78) - ZAC Charles-Renard<br>Description: 11 266 m² de locaux d'activités et bureaux divisibles à partir de 430 m² <br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfSUtORFQ2RGRZSFU?usp=sharing]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Saint-Cyr-l'Ecole (78) - ZAC Charles-Renard</value>
+					</Data>
+					<Data name='Description'>
+						<value>11 266 m² de locaux d'activités et bureaux divisibles à partir de 430 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfSUtORFQ2RGRZSFU?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/d2YehnZRcWQxL9HWNeOIeipBQcQGA93_ZZevk2ORfDDJa8bTlLQK7Q5NrDSGBoIhirfUh9zBzOuTrVEciVGBsk7MeSz8YRkqaQYR_Fz-TEzzZktGa1sryetmPPQid6U</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.0648503,48.8095061,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 - Saint-Pierre-du-Perray - Parc Spirit de la Clé St Pierre</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/r3KoXrjjgcZPnaXS1KlHTHlPPtvgM3-rXYtcawwNw6kE7DRiQmsz51w-q8C4mUs8MW-EqJ5prAq40vO9mISdd6SGfZLliByeo9voy3MfB7WwzYByC5VBIUwsxg9K6Kg" height="200" width="auto" /><br><br>Commune: Saint-Pierre-du-Perray (91) - ZAC de la Clé St Pierre<br>Description: 10 727 m² m² de locaux d'activités et bureaux divisibles à partir de 400 m² <br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfVHNLMXhXR3pIVW8?usp=sharing]]></description>
+				<styleUrl>#icon-1899-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Saint-Pierre-du-Perray (91) - ZAC de la Clé St Pierre</value>
+					</Data>
+					<Data name='Description'>
+						<value>10 727 m² m² de locaux d'activités et bureaux divisibles à partir de 400 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfVHNLMXhXR3pIVW8?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/r3KoXrjjgcZPnaXS1KlHTHlPPtvgM3-rXYtcawwNw6kE7DRiQmsz51w-q8C4mUs8MW-EqJ5prAq40vO9mISdd6SGfZLliByeo9voy3MfB7WwzYByC5VBIUwsxg9K6Kg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.524066,48.6176617,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 - Villebon-sur-Yvette - Parc Spirit de l'Atlantique</name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/FFXzZImQUJYyRyaM-lrujdnWLjfz42UrcWv7ixtyXtn0rF2rHHeLISVsiXOCpmhbvBLBWVAYUCYO5jFMz8Y7FZj_uT6QQccU8q-ZbBLYHmiwNCuntNh7tu4YpZlSvRZu" height="200" width="auto" /><br><br>Commune: Villebon-sur-Yvette (91)  - Parc de l'Atlantique<br>Description: 1 400 m² de locaux d'activités et bureaux divisibles à partir de 330 m²<br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfMm5hODNlRmpIXzQ?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Villebon-sur-Yvette (91)  - Parc de l'Atlantique</value>
+					</Data>
+					<Data name='Description'>
+						<value>1 400 m² de locaux d'activités et bureaux divisibles à partir de 330 m²</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfMm5hODNlRmpIXzQ?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/FFXzZImQUJYyRyaM-lrujdnWLjfz42UrcWv7ixtyXtn0rF2rHHeLISVsiXOCpmhbvBLBWVAYUCYO5jFMz8Y7FZj_uT6QQccU8q-ZbBLYHmiwNCuntNh7tu4YpZlSvRZu</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.2312765,48.6919372,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Le Blanc-Mesnil - Parc Spirit Descartes</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ZigovEJbCeQSmAkH17M3qq-4qaMGvX7GypgWWue8BnpcygiuoC--zTEbF8PnDFcyaOHo0rDMfRDEeqSICuU5QV7xxBoq_bkYE--IyYCxfL12orvzwyerIVb8mO_1lK3KiCns-TNhpf-BPKpdef9bMdlhRVYlWa0V9Z6AwQK_1FR9lG9fMXCEV3kzmmQ3I1ECOb6JU3_z_v2GHEAKulLiyGxnqTmc2lB2R5dOaXBtfbRYYr6nLQ7QZhBoXZ1C1Bvr42h3t02Tfpazc8-cCSrKN6pXds7EKCvXxL2nkKAN0kUpKpsGFeun" height="200" width="auto" /><br><br>Commune: Le Blanc-Mesnil (93)<br>Description: 6 590 m² de locaux d'activités et bureaux divisibles à partir de 413 m² <br>Interlocuteur: Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfQ1NUdWFRWUxFZHM?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Le Blanc-Mesnil (93)</value>
+					</Data>
+					<Data name='Description'>
+						<value>6 590 m² de locaux d'activités et bureaux divisibles à partir de 413 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Interlocuteur: Jean KRAMER: 06 69 51 44 90 - jkramer@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfQ1NUdWFRWUxFZHM?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/proxy/ZigovEJbCeQSmAkH17M3qq-4qaMGvX7GypgWWue8BnpcygiuoC--zTEbF8PnDFcyaOHo0rDMfRDEeqSICuU5QV7xxBoq_bkYE--IyYCxfL12orvzwyerIVb8mO_1lK3KiCns-TNhpf-BPKpdef9bMdlhRVYlWa0V9Z6AwQK_1FR9lG9fMXCEV3kzmmQ3I1ECOb6JU3_z_v2GHEAKulLiyGxnqTmc2lB2R5dOaXBtfbRYYr6nLQ7QZhBoXZ1C1Bvr42h3t02Tfpazc8-cCSrKN6pXds7EKCvXxL2nkKAN0kUpKpsGFeun</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.448406,48.95081,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Noisy-le-Sec - Parc Spirit de la plaine de l'Ourcq</name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/aGQHBNNBh35mXsSYABXne4BnugIfASfMkjArxcRs15hX2BkMB1-lRETYPnOvMUVKIDI_0w_nsC5lo02VZmRNiPUORHjTXx3Fj5GXFiwWzU0RYVY66fCHmE4MHsQcg1NF" height="200" width="auto" /><br><br>Commune: Noisy-le-Sec (93) - ZAC de la plaine de l'Ourcq<br>Description: 7 574 m² de locaux d'activités et bureaux divisibles à partir de 309 m² <br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfUW1QU1Y0Y3pGUUk?usp=sharing]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Noisy-le-Sec (93) - ZAC de la plaine de l'Ourcq</value>
+					</Data>
+					<Data name='Description'>
+						<value>7 574 m² de locaux d'activités et bureaux divisibles à partir de 309 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfUW1QU1Y0Y3pGUUk?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/aGQHBNNBh35mXsSYABXne4BnugIfASfMkjArxcRs15hX2BkMB1-lRETYPnOvMUVKIDI_0w_nsC5lo02VZmRNiPUORHjTXx3Fj5GXFiwWzU0RYVY66fCHmE4MHsQcg1NF</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.452204,48.900048,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Pierefitte - Parc Spirit Séverine</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/ndCIDETFSjeupz8YOEG0HgMP9CWXAR284SoCaFtzg5UokMVx741VsTQkNqAg9wAJhMU6N9xAuzQO9S6mkWEKwIEAom9DUGGOTJFHGZx4mZmKb8Ggd33ow5L0HoHzvZnYQuecgAu8T1Qk6i1o9TZlgjSwi2TMEZlarFEFkVURuvhdh8GkDHXNmi4VBHlKBLwA-cFxdv7CgQY6DXCBNFrE0JFCxTVffH7wailVukBF-WWUfc3y2Oc98mb-BRAgPMb17GYaC0c89wlqsSOGEWxbFJQlR0pXvax6SDo4lcEZQ9o" height="200" width="auto" /><br><br>Commune: Pierrefitte (93)<br>Description: 5 845 m² de locaux d'activités et bureaux divisibles à partir de 375 m² <br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfNGl6RmxkTThEa28?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Pierrefitte (93)</value>
+					</Data>
+					<Data name='Description'>
+						<value>5 845 m² de locaux d'activités et bureaux divisibles à partir de 375 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfNGl6RmxkTThEa28?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/proxy/ndCIDETFSjeupz8YOEG0HgMP9CWXAR284SoCaFtzg5UokMVx741VsTQkNqAg9wAJhMU6N9xAuzQO9S6mkWEKwIEAom9DUGGOTJFHGZx4mZmKb8Ggd33ow5L0HoHzvZnYQuecgAu8T1Qk6i1o9TZlgjSwi2TMEZlarFEFkVURuvhdh8GkDHXNmi4VBHlKBLwA-cFxdv7CgQY6DXCBNFrE0JFCxTVffH7wailVukBF-WWUfc3y2Oc98mb-BRAgPMb17GYaC0c89wlqsSOGEWxbFJQlR0pXvax6SDo4lcEZQ9o</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.358381,48.960905,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95 - Cormeilles-en-Parisis - Parc Spirit des Bois Rochefort</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/8bqI7-RigVinH2d5GpejYQTiIVwLunoSZH21byWBgCXmfEAEt79179dE3Ap4CiA_jn3Fi89VMqncocQsRX0z5LJq2KCXVdU-baKDaObgxOcE-MnqqlOf-j_Caqix0HId" height="200" width="auto" /><br><br>Commune: Cormeilles-en-Parisis (95) - ZAC des Bois Rochefort<br>Description: 7 159 m² de locaux d'activités et bureaux divisibles à partir de 411 m² <br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfVVRqYkN2amtkdDA?usp=sharing]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Cormeilles-en-Parisis (95) - ZAC des Bois Rochefort</value>
+					</Data>
+					<Data name='Description'>
+						<value>7 159 m² de locaux d'activités et bureaux divisibles à partir de 411 m² </value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfVVRqYkN2amtkdDA?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/8bqI7-RigVinH2d5GpejYQTiIVwLunoSZH21byWBgCXmfEAEt79179dE3Ap4CiA_jn3Fi89VMqncocQsRX0z5LJq2KCXVdU-baKDaObgxOcE-MnqqlOf-j_Caqix0HId</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.193103,48.952212,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>95 - Neuville-sur-Oise - Parc Spirit de l'Université</name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/jo6RT6lV0uIZIsR00fL7uaaPCnKPuQM3Y3Tj9UWwuMjfyRshfz1WtQT5rkxonvk5RVqSCq4NtoogPhB07JZ1XLNMkhSSpjRxsWTYNznYAqGhWuf05CIvw9BeoYtcJEOC" height="200" width="auto" /><br><br>Commune: Neuville-sur-Oise (95)<br>Description: 9 500 m² de locaux d'activités et bureaux<br>Interlocuteur: Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net<br>Lien vers le dossier commercial: https://drive.google.com/drive/folders/0B8sBWwZF3bQfR2wyc3NEcUdzOXM?usp=sharing]]></description>
+				<styleUrl>#icon-960-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Commune'>
+						<value>Neuville-sur-Oise (95)</value>
+					</Data>
+					<Data name='Description'>
+						<value>9 500 m² de locaux d'activités et bureaux</value>
+					</Data>
+					<Data name='Interlocuteur'>
+						<value>Alix BERTINETTI: 06 64 03 58 61 - abertinetti@spirit.net</value>
+					</Data>
+					<Data name='Lien vers le dossier commercial'>
+						<value>https://drive.google.com/drive/folders/0B8sBWwZF3bQfR2wyc3NEcUdzOXM?usp=sharing</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/jo6RT6lV0uIZIsR00fL7uaaPCnKPuQM3Y3Tj9UWwuMjfyRshfz1WtQT5rkxonvk5RVqSCq4NtoogPhB07JZ1XLNMkhSSpjRxsWTYNznYAqGhWuf05CIvw9BeoYtcJEOC</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.075762,49.014603,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Parcs Spirit Achevés</name>
+			<Placemark>
+				<name>77 - Chessy- Parc Spirit du Circulaire</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/UxztLl-hjagV9jvNIU0vVjwuuWe-gEmsMkq367ukF_CLq5OdV8pu5Mct3glPfJaH5PqwNN-gXh9HGl3sSTPUFNZZHw6QzsdsL3Mn0Fdfgr26ykDgSTQexjGHUBQT9xC6AQ" height="200" width="auto" /><br><br>Surface: 7 100 m²<br>Vidéos: ]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value>7 100 m²</value>
+					</Data>
+					<Data name='Vidéos'>
+						<value></value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/UxztLl-hjagV9jvNIU0vVjwuuWe-gEmsMkq367ukF_CLq5OdV8pu5Mct3glPfJaH5PqwNN-gXh9HGl3sSTPUFNZZHw6QzsdsL3Mn0Fdfgr26ykDgSTQexjGHUBQT9xC6AQ</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.7741551,48.8775372,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78 - Bois d'Arcy - Parc Spirit Méliès I</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/TwbR8emuSn33Ly4O61rmd49jnTVRhCEj0yl1ZW0hCV922VAe12drfLFcP9CwRvYH-0PuXCVmi6Jw-AtXWkkhTjaTEc55kBaCujIsxMXjAHUsMD92U7ifoCoytkANmPkaNw" height="200" width="auto" /><br><br>Surface: 10 000 m²<br>Vidéos: ]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value>10 000 m²</value>
+					</Data>
+					<Data name='Vidéos'>
+						<value></value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/TwbR8emuSn33Ly4O61rmd49jnTVRhCEj0yl1ZW0hCV922VAe12drfLFcP9CwRvYH-0PuXCVmi6Jw-AtXWkkhTjaTEc55kBaCujIsxMXjAHUsMD92U7ifoCoytkANmPkaNw</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.0057344,48.8015354,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>78 - Bois d'Arcy - Parc Spirit Méliès II</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/icabFj1El6UwouRbggh1gf__DXG55ZzShoWuG_lTqVAamvTWdC0PSWIsyyreekSLUAVGAKVdNVVkiiMpDXBwMf7HhfNQZ0eLKmfozbLFWc0494cm8Ql1LRA2Golpx2UzRg" height="200" width="auto" /><br><br>Surface: 13 000 m²<br>Vidéos: https://www.youtube.com/watch?v=vCofK2g4Fbk]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value>13 000 m²</value>
+					</Data>
+					<Data name='Vidéos'>
+						<value>https://www.youtube.com/watch?v=vCofK2g4Fbk</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/icabFj1El6UwouRbggh1gf__DXG55ZzShoWuG_lTqVAamvTWdC0PSWIsyyreekSLUAVGAKVdNVVkiiMpDXBwMf7HhfNQZ0eLKmfozbLFWc0494cm8Ql1LRA2Golpx2UzRg</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.0095325,48.8006309,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>91 - Morangis - Parc Spirit des Portes de Morangis</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/0BdoZawGQWo3d3LQRvT2YsjZ_2-3w2ngEwn5i_MlEfp5sPDO-lKMsF2T6pY6OQc9WCdPo_9itJgtIp9EFRW-nzZGeTg7BJ2sGyxaCQgLwh1NNdmF3iKntX-LznfrAClW" height="200" width="auto" /><br><br>Surface: <br>Vidéos: ]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value></value>
+					</Data>
+					<Data name='Vidéos'>
+						<value></value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/0BdoZawGQWo3d3LQRvT2YsjZ_2-3w2ngEwn5i_MlEfp5sPDO-lKMsF2T6pY6OQc9WCdPo_9itJgtIp9EFRW-nzZGeTg7BJ2sGyxaCQgLwh1NNdmF3iKntX-LznfrAClW</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.3484993,48.7077285,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Aulnay-sous-Bois - Parc Spirit des Mardelles</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/KqCpky4SWJghRxQRmjlt7tmhEX8FUPgBSZLUvWx1CSY6fkrTU7LwSJqVaDRH9k-tCBEuHL6_q28DrqqYV0IAQpko9X914_8RkSkhtGbHVyavwpV-4epC82DqA1UFMhR0" height="200" width="auto" /><br><br>Surface: 10 000 m²<br>Vidéos: https://www.youtube.com/watch?v=4cdmumoGeEI]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value>10 000 m²</value>
+					</Data>
+					<Data name='Vidéos'>
+						<value>https://www.youtube.com/watch?v=4cdmumoGeEI</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/KqCpky4SWJghRxQRmjlt7tmhEX8FUPgBSZLUvWx1CSY6fkrTU7LwSJqVaDRH9k-tCBEuHL6_q28DrqqYV0IAQpko9X914_8RkSkhtGbHVyavwpV-4epC82DqA1UFMhR0</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.4802494,48.948069,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - La Courneuve - Parc Spirit des 6 Routes</name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/G8xH4KYGUGV6GXo7as3jyVsCCYa1-aQhqFTcMbLRP4VWEIGLwdEw7dBnvk1bKhDWbvVVXmhaf9pU-C3FdYQ5_qBYxmRSrA9DyJ3xkCNM5Gzfj8SGnGSrHqNngf60CvCdPQ" height="200" width="auto" /><br><br>Surface: 4 000 m²<br>Vidéos: https://www.youtube.com/watch?v=l2L7LkQsRVM]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value>4 000 m²</value>
+					</Data>
+					<Data name='Vidéos'>
+						<value>https://www.youtube.com/watch?v=l2L7LkQsRVM</value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/G8xH4KYGUGV6GXo7as3jyVsCCYa1-aQhqFTcMbLRP4VWEIGLwdEw7dBnvk1bKhDWbvVVXmhaf9pU-C3FdYQ5_qBYxmRSrA9DyJ3xkCNM5Gzfj8SGnGSrHqNngf60CvCdPQ</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.3830193,48.9286568,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Stain - Parc Spirit de la Cerisaie</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/k1lsdlpn2Kbes5ozKH5qBZ8Wu2mWiMtI8z0Cx6giW2rgaDgVdhPz2uXwuhqzJCRRIzURdp7QueG9KeknKYWX4D_P-jczyVrJqbcUWlRT9vM9jGDHa6hibip7B0zYIMBQ" height="200" width="auto" /><br><br>Surface: 18 500 m²<br>Vidéos: ]]></description>
+				<styleUrl>#icon-959-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Surface'>
+						<value>18 500 m²</value>
+					</Data>
+					<Data name='Vidéos'>
+						<value></value>
+					</Data>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/k1lsdlpn2Kbes5ozKH5qBZ8Wu2mWiMtI8z0Cx6giW2rgaDgVdhPz2uXwuhqzJCRRIzURdp7QueG9KeknKYWX4D_P-jczyVrJqbcUWlRT9vM9jGDHa6hibip7B0zYIMBQ</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.3933861,48.9577846,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Clé en main</name>
+			<Placemark>
+				<name>HILTI 2011</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/kULBtRxKn1rqc83AninB1UfV0117gFNhWNgVZ2Y0BqhxKneW4bw_yBIo7IlQOkn_hqF0WAIQ3d0gjfywcD0vgfgtuuruj0otfzGZNPfbMTI6DOy4O7HvZ_oIiUuQ-3RQ" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1498-9C27B0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/kULBtRxKn1rqc83AninB1UfV0117gFNhWNgVZ2Y0BqhxKneW4bw_yBIo7IlQOkn_hqF0WAIQ3d0gjfywcD0vgfgtuuruj0otfzGZNPfbMTI6DOy4O7HvZ_oIiUuQ-3RQ</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.002337,48.80271,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Itron 2010</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.283368,48.720078,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fuji</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.051565,48.792033,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CTM Bezons 2006</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.225467,48.928387,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>wurth 1</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.700316,48.828475,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Check point</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.050955,48.792519,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sitour</name>
+				<description><![CDATA[<img src="https://lh3.googleusercontent.com/Wa5r6iT-HkAP60bM3JQUGyAL-4FjzL8BzygTprCR6V8MdMBVMtiS3Ss6QasJH4qfNFRxVOvgV7XaaiNsPPV-tDhaGSo_3gPKA34Sp7_VdfBphGtwWyWRFlAwYHQlNmh8kA" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1498-9C27B0</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh3.googleusercontent.com/Wa5r6iT-HkAP60bM3JQUGyAL-4FjzL8BzygTprCR6V8MdMBVMtiS3Ss6QasJH4qfNFRxVOvgV7XaaiNsPPV-tDhaGSo_3gPKA34Sp7_VdfBphGtwWyWRFlAwYHQlNmh8kA</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.197152,48.950504,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Coli poste 2010</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.005814,48.802127,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>wurth 2</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.302296,48.928181,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Auchant</name>
+				<styleUrl>#icon-959-9C27B0-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.344329,48.706704,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Phenix Pharma 2009</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.43899,48.783014,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>S+P 2010</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.014727,48.799953,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C2J 2010</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.315318,48.9233,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tedis 2 - 2016</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/MIvHvuxE_LQCMpQGVJZ6HyMjyjCTgY6ZiCu519mNhMC0zGF0I7vlISerdfwp6LwgLjCmzpXDakEzIRyq4rJARxOF0x9VEBdR1gFd9fVfeVSOHOnQZ2T4EZbuSeVKGq0l" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1498-0288D1</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/MIvHvuxE_LQCMpQGVJZ6HyMjyjCTgY6ZiCu519mNhMC0zGF0I7vlISerdfwp6LwgLjCmzpXDakEzIRyq4rJARxOF0x9VEBdR1gFd9fVfeVSOHOnQZ2T4EZbuSeVKGq0l</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.2274017,48.691434,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Klekoon 2010</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.527609,48.946495,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Meljack 2008</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.436748,48.729212,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>EFMT 2008</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.202025,48.951885,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mosquee AAFM</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.387415,48.927639,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Axmann  2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.665356,48.842628,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Victor Import 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.637246,48.98151,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Idab Wamac 2008</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.665221,48.843289,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Gourmet Parisien 2008</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.499744,49.003779,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>LGM 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.773098,48.877363,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bokobza 2008</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.761934,48.853223,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Locaclima 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.295924,48.80427,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Paybox 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.062422,48.762502,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elie bleu 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.304707,48.922743,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TTP</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.434126,48.730724,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>film aire 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.503066,49.001834,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>C2B GCI 2006</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.796574,48.840974,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>alfyma 2006</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.797262,48.84116,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Intersoft 2006</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.304384,48.923941,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SEBAC 2007</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.306539,48.945183,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CEF 1</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.119361,49.038057,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Puratos</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.17606,49.019621,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CAMS</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.221377,49.002318,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Médicis 2005</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.137925,49.058503,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Miltra 2006</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.137285,49.059274,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Solgar</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.703617,48.826752,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Schiller</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.703267,48.834591,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>TAV</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.524041,48.829514,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>SNIE</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.602918,48.68598,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ESTPM</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.508423,48.617705,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>CES</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.393567,48.957079,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>pari gourmet</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.39299,48.956764,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bouena pasta</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.393856,48.960185,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ECP</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.39445,48.958805,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pinel</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.392196,48.956299,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tedis</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.320779,48.724797,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tradlink</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.321372,48.726296,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Loding</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.303666,48.716526,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Centhor</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.305619,48.726406,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Autochim</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.346947,48.707756,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Air climat</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.346471,48.707861,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ED</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.349617,48.706104,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Houdan</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.344758,48.707423,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Odysse</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>1.947033,48.757014,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sider prid</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>1.928523,48.759305,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Frères goumand</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.425498,48.905904,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cibetanche 2010</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.666695,48.84244,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>pericles</name>
+				<styleUrl>#icon-959-0288D1-nodesc</styleUrl>
+				<Point>
+					<coordinates>2.443909,48.903996,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bafa 2014</name>
+				<description><![CDATA[<img src="https://lh5.googleusercontent.com/Uutwx99eU37-b_nkPq773x9jwC3JChXSsi-vqfievhVpT3zmpB-vBDUyVd0OhE1aeeKk-GmdiWf_sfq_h4Et9Is-J41yH00SVqYwPGBuSLwchBYNb8A-kEsm_W1pl3eB" height="200" width="auto" /><br><br>Vidéo: https://www.youtube.com/watch?v=qKV4eW2bm5w]]></description>
+				<styleUrl>#icon-1498-0288D1</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh5.googleusercontent.com/Uutwx99eU37-b_nkPq773x9jwC3JChXSsi-vqfievhVpT3zmpB-vBDUyVd0OhE1aeeKk-GmdiWf_sfq_h4Et9Is-J41yH00SVqYwPGBuSLwchBYNb8A-kEsm_W1pl3eB</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.374705,48.617039,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bio C' Bon</name>
+				<description><![CDATA[<img src="https://lh6.googleusercontent.com/HsH2cIyDrcRxzVw9fFkC4H6xmDGtClj_89RpocGJe8HGjMYgy22x_Vjs6ZhrPDoLpJV23yb4f13qvSZGE2oQFUIxbcleVaxFP_LVqQHtZMs0WmuAZp-Ij4ZYcI7fm5jG" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1498-0288D1</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh6.googleusercontent.com/HsH2cIyDrcRxzVw9fFkC4H6xmDGtClj_89RpocGJe8HGjMYgy22x_Vjs6ZhrPDoLpJV23yb4f13qvSZGE2oQFUIxbcleVaxFP_LVqQHtZMs0WmuAZp-Ij4ZYcI7fm5jG</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.4041335,48.7251138,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Packdis - 2016 </name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/xWRQLfI2HNZTQExqt6Pd8-iKhatj5WbRS9qhkfWPxIbEviIfeHVOqG4LNxCu9NFKqTBZMLcu08pcDd_NDkrh8DtjYw68Ij_3tS_2Q02GqP-BKtdhvNYSQYaGysvg9k7FbQ" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1498-0288D1</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/xWRQLfI2HNZTQExqt6Pd8-iKhatj5WbRS9qhkfWPxIbEviIfeHVOqG4LNxCu9NFKqTBZMLcu08pcDd_NDkrh8DtjYw68Ij_3tS_2Q02GqP-BKtdhvNYSQYaGysvg9k7FbQ</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.5397247,48.9789142,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HMD - 2016</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/Ta9HreH5RZmRbL5rnywpx2MiwDWlvWj7DpTry-hiMuxWdl5gVyLq4ZBrqrw3TNrJWwCXclyWP934hACc7qIPB94kxWL1JKfK9ah468pb6KlFvrdyIgkG8xIKlWgT77Y" height="200" width="auto" /><br><br>]]></description>
+				<styleUrl>#icon-1498-0288D1</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/Ta9HreH5RZmRbL5rnywpx2MiwDWlvWj7DpTry-hiMuxWdl5gVyLq4ZBrqrw3TNrJWwCXclyWP934hACc7qIPB94kxWL1JKfK9ah468pb6KlFvrdyIgkG8xIKlWgT77Y</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<coordinates>2.5387859,48.9786607,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>93 - Tremblay-en-France - Parc à Clé en main </name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/-jHHiKAUq-CJ9D7fN-Z4kvEAZH1aLo8XImaOA3AJTirFZTnveB7AJS_rzC8f6UDGHxn-spXyNYgenHFW_ZM_5FJUx3VOkBX5LiqTILmP2lNisJv7tT2IyIToJEKs4ic3VA" height="200" width="auto" /><br><br>7 000 m2 de foncier disponible]]></description>
+				<styleUrl>#poly-FFFF8D-1-77</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/-jHHiKAUq-CJ9D7fN-Z4kvEAZH1aLo8XImaOA3AJTirFZTnveB7AJS_rzC8f6UDGHxn-spXyNYgenHFW_ZM_5FJUx3VOkBX5LiqTILmP2lNisJv7tT2IyIToJEKs4ic3VA</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>2.5371123,48.9789918,0.0 2.539478,48.978284,0.0 2.5403845,48.97946,0.0 2.5390166,48.9797557,0.0 2.5371123,48.9789918,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>91 - Villebon s/ Yvette - Parc Spirit de l'Atlantique</name>
+				<description><![CDATA[<img src="https://lh4.googleusercontent.com/Ga32Twz_ZPMRsNEJ8liWyjxFdsSODkviPQDyUmejeXmI4mIq-1Rh-fxdAJ_R03DCnC645PoqeumDVH6pwjVlK4uYYfRJIDO2LxIVIrRVs4wvZZlF6MF2zGNGjYI6_A4" height="200" width="auto" /><br><br>35 000 m2 de foncier disponibles]]></description>
+				<styleUrl>#poly-E6EE9C-1-77</styleUrl>
+				<ExtendedData>
+					<Data name='gx_media_links'>
+						<value>https://lh4.googleusercontent.com/Ga32Twz_ZPMRsNEJ8liWyjxFdsSODkviPQDyUmejeXmI4mIq-1Rh-fxdAJ_R03DCnC645PoqeumDVH6pwjVlK4uYYfRJIDO2LxIVIrRVs4wvZZlF6MF2zGNGjYI6_A4</value>
+					</Data>
+				</ExtendedData>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>2.2261691,48.6910454,0.0 2.2289801,48.6898839,0.0 2.2310829,48.6913712,0.0 2.2301173,48.6919094,0.0 2.2309756,48.6925468,0.0 2.2295594,48.69317,0.0 2.2272205,48.6921644,0.0 2.227242,48.6917253,0.0 2.2261691,48.6910454,0.0</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Folder>
+		<Style id='icon-1498-0288D1-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1498-0288D1-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1498-0288D1'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1498-0288D1-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1498-0288D1-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1498-9C27B0-normal'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1498-9C27B0-highlight'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1498-9C27B0'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1498-9C27B0-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1498-9C27B0-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-1899-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-1899-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-1899-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-959-0288D1-nodesc-normal'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-959-0288D1-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD18802</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-959-0288D1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-959-0288D1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-959-0288D1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-959-9C27B0-nodesc-normal'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-959-9C27B0-nodesc-highlight'>
+			<IconStyle>
+				<color>ffB0279C</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-959-9C27B0-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-959-9C27B0-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-959-9C27B0-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-959-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-959-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/959-wht-circle-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-959-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-959-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-959-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-960-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-960-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/960-wht-star-blank.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-960-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-960-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-960-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-E6EE9C-1-77-normal'>
+			<LineStyle>
+				<color>ff9CEEE6</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D9CEEE6</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-E6EE9C-1-77-highlight'>
+			<LineStyle>
+				<color>ff9CEEE6</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D9CEEE6</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<StyleMap id='poly-E6EE9C-1-77'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-E6EE9C-1-77-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-E6EE9C-1-77-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-FFFF8D-1-77-normal'>
+			<LineStyle>
+				<color>ff8DFFFF</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D8DFFFF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<Style id='poly-FFFF8D-1-77-highlight'>
+			<LineStyle>
+				<color>ff8DFFFF</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D8DFFFF</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+		</Style>
+		<StyleMap id='poly-FFFF8D-1-77'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-FFFF8D-1-77-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-FFFF8D-1-77-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

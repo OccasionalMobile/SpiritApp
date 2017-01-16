@@ -23,6 +23,8 @@
     [super viewDidLoad];
     [self setTitle:_TiltleName];
     // Do any additional setup after loading the view.
+    [[[self navigationController] navigationBar] setBackgroundColor:[UIColor redColor]];
+    [[self parcScrollView] setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height+_LienCommercialButton.frame.origin.y+_LienCommercialButton.frame.size.height)];
     [self prepareParcInfo];
     [self refreshDisplay];
 }
@@ -65,6 +67,7 @@
     [_CommuneLabel setText:_ParcCommune];
     [_DescriptionLabel setText:_ParcDescription];
     [_LienCommercialButton setTitle:_ParcLink forState:UIControlStateNormal];
+    [_parcImageView setImage:[[DataManager currentDataManager] getParcImageFromName:_ParcName andCategorie:_ParcCategorie]];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -82,6 +85,18 @@
 */
 
 - (IBAction)ClickOnCommercialLink:(id)sender {
+    UIApplication *application = [UIApplication sharedApplication];
+    NSURL *URL = [NSURL URLWithString:_ParcLink];
+    
+    if ([application respondsToSelector:@selector(openURL:options:completionHandler:)]) {
+        [application openURL:URL options:@{}
+           completionHandler:^(BOOL success) {
+               NSLog(@"Open %@: %d",_ParcLink,success);
+           }];
+    } else {
+        BOOL success = [application openURL:URL];
+        NSLog(@"Open %@: %d",_ParcLink,success);
+    }
     
 }
 @end

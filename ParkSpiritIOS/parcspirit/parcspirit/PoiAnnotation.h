@@ -10,4 +10,5 @@
 
 @interface PoiAnnotation : MKPointAnnotation
 @property int type;
+@property (nonatomic,strong) NSDictionary * PoiDic;
 @end

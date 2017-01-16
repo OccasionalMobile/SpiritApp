@@ -12,6 +12,8 @@
 #import "Constant.h"
 #import "PoiAnnotation.h"
 #import "POIDetailViewController.h"
+#import "RequestManager.h"
+
 
 @interface ViewController : UIViewController <UITableViewDelegate,UITableViewDataSource,MKMapViewDelegate>
 @property (weak, nonatomic) IBOutlet UIView *VefaView;

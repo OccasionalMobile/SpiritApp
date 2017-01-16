@@ -23,7 +23,9 @@
 @property int selectedPin;
 @property (strong,nonatomic) NSDictionary * selectedPoi;
 @property (strong,nonatomic) NSString * nextTitle;
+@property (strong,nonatomic) NSString * currentCategorie;
 
+@property BOOL isfirstLaunch;
 @end
 
 @implementation ViewController
@@ -36,6 +38,7 @@
     [_MapView setDelegate:self];
     _selectedPin = 0;
     [self prepareTheMap ];
+    _isfirstLaunch = true;
     
 }
 
@@ -47,25 +50,38 @@
 
 
 -(void)viewDidAppear:(BOOL)animated{
-    [[DataManager currentDataManager] getLocalData];
+    
+    //[[RequestManager currentRequestManager] downloadParcList];
+    //[[DataManager currentDataManager] getLocalData];
+    
+    if (_isfirstLaunch) {
+        [self initcontext];
+        _isfirstLaunch = false;
+    }
+    
+    [_POITableView reloadData];
+
+}
+
+-(void)initcontext
+{
     _POIDictionnary = [NSDictionary dictionaryWithDictionary:[[DataManager currentDataManager] parcList]];
     
     NSString * catKey;
+    _currentCategorie = keyVEFA;
     catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
     _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
     [_CategoryLabel setText:catKey];
-
-    
-    [_POITableView reloadData];
     
     [self addPOIToTheMap ];
+    
 }
-
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender {
     
     NSString * catKey;
     
     if (sender.selectedSegmentIndex == SegmentVefa) {
+        _currentCategorie = keyVEFA;
         catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
         _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
         
@@ -73,16 +89,19 @@
         [_AllView setHidden:true];
     }else if (sender.selectedSegmentIndex == SegmentLocation)
     {
+        _currentCategorie = keyLocation;
         catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyLocation];
         _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
         [_VefaView setHidden:false];
         [_AllView setHidden:true];
     }else if (sender.selectedSegmentIndex == SegmentAchieved) {
+        _currentCategorie = keyAchieved;
         catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyAchieved];
         _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
         [_VefaView setHidden:false];
         [_AllView setHidden:true];
     }else if (sender.selectedSegmentIndex == SegmentCEM) {
+        _currentCategorie = keyCEM;
         catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyCEM];
         _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
         [_VefaView setHidden:false];
@@ -145,6 +164,8 @@
          */
         NSDictionary * POI = [_localPOIArray objectAtIndex:[indexPath row]];
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cellIdentifier"] ;
+    [cell.textLabel setFont:[UIFont fontWithName:@"HelveticaNeue" size:14]];
+        [cell.textLabel setNumberOfLines:2];
         [cell.textLabel setText:[POI objectForKey:@"name"]];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         
@@ -184,7 +205,7 @@
 {
     
     CLLocation *parisCoordinate = [[CLLocation alloc] initWithLatitude:48.861774 longitude:2.340001];
-    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(parisCoordinate.coordinate, 10000, 10000);
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(parisCoordinate.coordinate, 30000, 30000);
     [_MapView setRegion:[_MapView regionThatFits:region] animated:YES];
     
 }
@@ -199,6 +220,7 @@
         
         PoiAnnotation *point = [[PoiAnnotation alloc] init];
         CLLocationCoordinate2D pointCC = [self getCoordianteFromString:[[PoiDic objectForKey:@"Point"] objectForKey:@"coordinates"]];
+        point.PoiDic = PoiDic;
         point.coordinate =pointCC;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinVefa;
@@ -212,6 +234,7 @@
         
         PoiAnnotation *point = [[PoiAnnotation alloc] init];
         CLLocationCoordinate2D pointCC = [self getCoordianteFromString:[[PoiDic objectForKey:@"Point"] objectForKey:@"coordinates"]];
+        point.PoiDic = PoiDic;
         point.coordinate =pointCC;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinLocation;
@@ -226,6 +249,7 @@
         PoiAnnotation *point = [[PoiAnnotation alloc] init];
         CLLocationCoordinate2D pointCC = [self getCoordianteFromString:[[PoiDic objectForKey:@"Point"] objectForKey:@"coordinates"]];
         point.coordinate =pointCC;
+        point.PoiDic = PoiDic;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinAchieved;
         [_MapView addAnnotation:point];
@@ -238,6 +262,7 @@
         PoiAnnotation *point = [[PoiAnnotation alloc] init];
         CLLocationCoordinate2D pointCC = [self getCoordianteFromString:[[PoiDic objectForKey:@"Point"] objectForKey:@"coordinates"]];
         point.coordinate =pointCC;
+        point.PoiDic = PoiDic;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinCEM;
         [_MapView addAnnotation:point];
@@ -248,34 +273,29 @@
     
     
 }
-- (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation
-{
-
-    
-    // Add an annotation
-    MKPointAnnotation *point = [[MKPointAnnotation alloc] init];
-    point.coordinate = userLocation.coordinate;
-    point.title = @"Where am I?";
-    point.subtitle = @"I'm here!!!";
-    
-    [mapView addAnnotation:point];
-}
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation
 {
     
     NSString *reuseId = @"annov";
-    MKPinAnnotationView *annov = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
+    //MKPinAnnotationView *annov = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
+    MKAnnotationView *annov = (MKAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
+
     if(!annov)
     {
-        annov = [[MKPinAnnotationView alloc]initWithAnnotation:annotation
+        annov = [[MKAnnotationView alloc]initWithAnnotation:annotation
                                                reuseIdentifier:reuseId];
     }
     annov.canShowCallout = YES;
+    annov.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    UIImage *im =[UIImage imageNamed:@"POI.png"];
+    [annov setImage:im];
+
+    //annov.pinTintColor = [UIColor blueColor];
     
-    annov.pinTintColor = [UIColor blueColor];
     
     
+    /*
     if ([(PoiAnnotation*)annotation type] == PinVefa) {
         
         annov.pinTintColor = [UIColor redColor];
@@ -289,17 +309,42 @@
     if ([(PoiAnnotation*)annotation type] == PinCEM) {
         annov.pinTintColor = [UIColor purpleColor];
     }
-    
+    */
     
     return annov;
+}
+
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+    //launch a new view upon touching the disclosure indicator
+    
+    _selectedPoi = [(PoiAnnotation*)[view annotation] PoiDic];
+    
+    if ([(PoiAnnotation*)[view annotation] type]==PinVefa) {
+        _currentCategorie = keyVEFA;
+    }
+    if ([(PoiAnnotation*)[view annotation] type]==PinCEM) {
+        _currentCategorie = keyCEM;
+    }
+    if ([(PoiAnnotation*)[view annotation] type]==PinAchieved) {
+        _currentCategorie = keyAchieved;
+    }
+    if ([(PoiAnnotation*)[view annotation] type]==PinLocation) {
+        _currentCategorie = keyLocation;
+    }
+    
+    _nextTitle = [_selectedPoi  objectForKey:@"name"];
+    [self performSegueWithIdentifier:@"showPoiDetails" sender:self];
+
 }
 
 #pragma mark Navgation Management  -
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     POIDetailViewController * detailVC;
-    [detailVC setTiltleName:_nextTitle];
     detailVC = (POIDetailViewController *)[segue destinationViewController];
+    [detailVC setParcCategorie:_currentCategorie];
+    [detailVC setTiltleName:_nextTitle];
     detailVC.SelectedPoi = _selectedPoi;
 }
 

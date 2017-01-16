@@ -1,0 +1,42 @@
+{
+"VEFA":
+	{
+		"77 - Bailly-Romainvilliers - Parc Spirit Val d'Europe":"BAILLY",
+		"77 - Bussy-Saint-Georges - Parc Spirit Graham Bell":"BUSSY",
+		"77 - Collégien - Parc Spirit de l'Amirault":"COLLEGIEN",
+		"78 - Bois d'Arcy - Parc Spirit Méliès III":"BOIS D'ARCY",
+		"78 - Saint-Cyr-l'Ecole - Parc Spirit de la ZAC Charles-Renard":"SAINT CYR",
+		"91 - Lisses - Parc Spirit du Bois Chaland":"LISSES",
+		"91 - Saint-Pierre-du-Perray - Parc Spirit de la Clé St Pierre":"SAINT PIERRE",
+		"91 - Villebon-sur-Yvette - Parc Spirit de l'Atlantique":"VILLEBON",
+		"93 - Pierrefitte - Parc Spirit Séverine":"PIERREFITTE",
+		"93 - Villetaneuse - Parc Spirit de l'université":"VILLETANEUSE",
+		"95 - Cormeilles-en-Parisis - Parc Spirit des Bois Rochefort":"CORMEILLES 1",
+		"95 - Cormeilles-en-Parisis - Parc Spirit des Bois Rochefort II":"CORMEILLES 2",
+		"95 - Neuville-sur-Oise - Parc Spirit de Neuville Université":"NEUVILLE",
+		"95 - Frépillon - Parc Spirit des Epineaux":"FREPILLON"
+	},
+"Location": 
+	{
+		"77 - Bussy-Saint-Georges - Parc Spirit Graham Bell":"Loc_BUSSY",
+		"78 - Bois d'Arcy - Parc Spirit Méliès 3":"Loc_BOIS D'ARCY",
+		"78 - Saint-Cyr-l'Ecole - Parc Spirit de la ZAC Charles-Renard":"Loc_SAINT CYR",
+		"91 - Saint-Pierre-du-Perray - Parc Spirit de la Clé St Pierre":"Loc_SAINT PIERRE",
+		"91 - Villebon-sur-Yvette - Parc Spirit de l'Atlantique":"Loc_VILLEBON",
+		"93 - Le Blanc-Mesnil - Parc Spirit Descartes":"Loc_BLANC MESNIL",
+		"93 - Noisy-le-Sec - Parc Spirit de la plaine de l'Ourcq":"Loc_NOISY",
+		"93 - Pierefitte - Parc Spirit Séverine":"Loc_PIERREFITTE",
+		"95 - Cormeilles-en-Parisis - Parc Spirit des Bois Rochefort":"Loc_CORMEILLES",
+		"95 - Neuville-sur-Oise - Parc Spirit de l'Université":"Loc_NEUVILLE"
+	},
+	"Acheve": 
+	{
+		"77 - Chessy- Parc Spirit du Circulaire":"acheve_chessy",
+		"78 - Bois d'Arcy - Parc Spirit Méliès I":"acheve_bois_d_arcy_1",
+		"78 - Bois d'Arcy - Parc Spirit Méliès II":"acheve_bois_d_arcy_2",
+		"91 - Morangis - Parc Spirit des Portes de Morangis":"acheve_morangis",
+		"93 - Aulnay-sous-Bois - Parc Spirit des Mardelles":"acheve_aulnay_sous_bois",
+		"93 - La Courneuve - Parc Spirit des 6 Routes":"acheve_la_courneuve",
+		"93 - Stain - Parc Spirit de la Cerisaie":"acheve_stains"
+	}
+}

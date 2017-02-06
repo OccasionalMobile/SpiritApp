@@ -19,6 +19,10 @@
 		50143DB71DDA04E1003093FC /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50143DB61DDA04E1003093FC /* DataManager.m */; };
 		50536D6B1DE5F29C00AEC872 /* Spirit_parc_images.json in Resources */ = {isa = PBXBuildFile; fileRef = 50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */; };
 		50536D6D1DE5F2A500AEC872 /* Spirit_Images in Resources */ = {isa = PBXBuildFile; fileRef = 50536D6C1DE5F2A500AEC872 /* Spirit_Images */; };
+		505B63021E376818002A4308 /* LOGO_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 505B63011E376818002A4308 /* LOGO_Map.png */; };
+		505B630C1E3A2E55002A4308 /* parcspiritUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B630B1E3A2E55002A4308 /* parcspiritUITests.m */; };
+		505B63151E3A2E84002A4308 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B63141E3A2E84002A4308 /* XCTest.framework */; };
+		505B63161E3A2EA5002A4308 /* UItest.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B63031E3A2E27002A4308 /* UItest.m */; };
 		50C3BDE31DDB843600BC3682 /* PoiAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C3BDE21DDB843600BC3682 /* PoiAnnotation.m */; };
 		50C3BDE61DDC97C900BC3682 /* POIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C3BDE51DDC97C900BC3682 /* POIDetailViewController.m */; };
 		50C8AC0D1E044150006FCF08 /* POI.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C8AC0C1E044150006FCF08 /* POI.png */; };
@@ -32,6 +36,8 @@
 		50D33D881DE663860073EE11 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D821DE663860073EE11 /* Icon@2x.png */; };
 		50D33D911DE666D60073EE11 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D8F1DE666D60073EE11 /* Icon-40@2x.png */; };
 		50D33D921DE666D60073EE11 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D901DE666D60073EE11 /* Icon-Small@2x.png */; };
+		50E02BFB1E48A88300F93526 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E02BF91E48A88300F93526 /* Fabric.framework */; };
+		50E02BFC1E48A88300F93526 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E02BFA1E48A88300F93526 /* Crashlytics.framework */; };
 		50F77D9D1DE2163500F41367 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F77D9C1DE2163500F41367 /* RequestManager.m */; };
 		50F77DA01DE220B600F41367 /* InitDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F77D9F1DE220B600F41367 /* InitDataViewController.m */; };
 		50F7E6181DE3901A00AB6F68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F7E6171DE3901A00AB6F68 /* Default-568h@2x.png */; };
@@ -40,6 +46,16 @@
 		50F7E6211DE3919300AB6F68 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F7E61C1DE3919300AB6F68 /* Default.png */; };
 		50F7E6221DE3919300AB6F68 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F7E61D1DE3919300AB6F68 /* Default@2x.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		505B630E1E3A2E55002A4308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50143D8C1DD9FA7C003093FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50143D931DD9FA7D003093FC;
+			remoteInfo = parcspirit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		50143D941DD9FA7D003093FC /* parcspirit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parcspirit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +76,12 @@
 		50143DB91DDA1FA6003093FC /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Spirit_parc_images.json; path = ../../Spirit_parc_images.json; sourceTree = "<group>"; };
 		50536D6C1DE5F2A500AEC872 /* Spirit_Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Spirit_Images; path = ../../Spirit_Images; sourceTree = "<group>"; };
+		505B63011E376818002A4308 /* LOGO_Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO_Map.png; sourceTree = "<group>"; };
+		505B63031E3A2E27002A4308 /* UItest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UItest.m; path = TestUI/UItest.m; sourceTree = "<group>"; };
+		505B63091E3A2E55002A4308 /* parcspiritUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parcspiritUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		505B630B1E3A2E55002A4308 /* parcspiritUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parcspiritUITests.m; sourceTree = "<group>"; };
+		505B630D1E3A2E55002A4308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		505B63141E3A2E84002A4308 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		50C3BDE11DDB843600BC3682 /* PoiAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiAnnotation.h; sourceTree = "<group>"; };
 		50C3BDE21DDB843600BC3682 /* PoiAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiAnnotation.m; sourceTree = "<group>"; };
 		50C3BDE41DDC97C900BC3682 /* POIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIDetailViewController.h; sourceTree = "<group>"; };
@@ -82,6 +104,8 @@
 		50D33D8E1DE6648C0073EE11 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		50D33D8F1DE666D60073EE11 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
 		50D33D901DE666D60073EE11 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		50E02BF91E48A88300F93526 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		50E02BFA1E48A88300F93526 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		50F77D9B1DE2163500F41367 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
 		50F77D9C1DE2163500F41367 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 		50F77D9E1DE220B600F41367 /* InitDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitDataViewController.h; sourceTree = "<group>"; };
@@ -99,6 +123,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				50143DB01DDA031D003093FC /* MapKit.framework in Frameworks */,
+				50E02BFC1E48A88300F93526 /* Crashlytics.framework in Frameworks */,
+				50E02BFB1E48A88300F93526 /* Fabric.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505B63061E3A2E55002A4308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505B63151E3A2E84002A4308 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +142,7 @@
 		50143D8B1DD9FA7C003093FC = {
 			isa = PBXGroup;
 			children = (
+				505B63031E3A2E27002A4308 /* UItest.m */,
 				50D33D8F1DE666D60073EE11 /* Icon-40@2x.png */,
 				50D33D901DE666D60073EE11 /* Icon-Small@2x.png */,
 				50D33D891DE6648C0073EE11 /* Icon-40.png */,
@@ -123,7 +158,10 @@
 				50D33D811DE663860073EE11 /* Icon.png */,
 				50D33D821DE663860073EE11 /* Icon@2x.png */,
 				50D33D6B1DE60FDA0073EE11 /* ParcImages.xcassets */,
+				50E02BF91E48A88300F93526 /* Fabric.framework */,
+				50E02BFA1E48A88300F93526 /* Crashlytics.framework */,
 				50143D961DD9FA7D003093FC /* parcspirit */,
+				505B630A1E3A2E55002A4308 /* parcspiritUITests */,
 				50143D951DD9FA7D003093FC /* Products */,
 				50143DAE1DDA031D003093FC /* Frameworks */,
 			);
@@ -133,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				50143D941DD9FA7D003093FC /* parcspirit.app */,
+				505B63091E3A2E55002A4308 /* parcspiritUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				50C8AC0C1E044150006FCF08 /* POI.png */,
+				505B63011E376818002A4308 /* LOGO_Map.png */,
 				50536D6C1DE5F2A500AEC872 /* Spirit_Images */,
 				50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */,
 				50F7E61A1DE3919300AB6F68 /* Default-iPhone6.png */,
@@ -183,6 +223,7 @@
 		50143DAE1DDA031D003093FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				505B63141E3A2E84002A4308 /* XCTest.framework */,
 				50143DAF1DDA031D003093FC /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -200,6 +241,15 @@
 			name = DataManagement;
 			sourceTree = "<group>";
 		};
+		505B630A1E3A2E55002A4308 /* parcspiritUITests */ = {
+			isa = PBXGroup;
+			children = (
+				505B630B1E3A2E55002A4308 /* parcspiritUITests.m */,
+				505B630D1E3A2E55002A4308 /* Info.plist */,
+			);
+			path = parcspiritUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +260,7 @@
 				50143D901DD9FA7D003093FC /* Sources */,
 				50143D911DD9FA7D003093FC /* Frameworks */,
 				50143D921DD9FA7D003093FC /* Resources */,
+				50F86B961E48894F0023B93B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -219,6 +270,24 @@
 			productName = parcspirit;
 			productReference = 50143D941DD9FA7D003093FC /* parcspirit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		505B63081E3A2E55002A4308 /* parcspiritUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 505B63101E3A2E55002A4308 /* Build configuration list for PBXNativeTarget "parcspiritUITests" */;
+			buildPhases = (
+				505B63051E3A2E55002A4308 /* Sources */,
+				505B63061E3A2E55002A4308 /* Frameworks */,
+				505B63071E3A2E55002A4308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				505B630F1E3A2E55002A4308 /* PBXTargetDependency */,
+			);
+			name = parcspiritUITests;
+			productName = parcspiritUITests;
+			productReference = 505B63091E3A2E55002A4308 /* parcspiritUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -233,6 +302,12 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NV6F6RZ362;
 						ProvisioningStyle = Automatic;
+					};
+					505B63081E3A2E55002A4308 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X27SL945HP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50143D931DD9FA7D003093FC;
 					};
 				};
 			};
@@ -250,6 +325,7 @@
 			projectRoot = "";
 			targets = (
 				50143D931DD9FA7D003093FC /* parcspirit */,
+				505B63081E3A2E55002A4308 /* parcspiritUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,6 +347,7 @@
 				50F7E6201DE3919300AB6F68 /* Default-iPhone6Plus.png in Resources */,
 				50C8AC0D1E044150006FCF08 /* POI.png in Resources */,
 				50D33D911DE666D60073EE11 /* Icon-40@2x.png in Resources */,
+				505B63021E376818002A4308 /* LOGO_Map.png in Resources */,
 				50F7E61F1DE3919300AB6F68 /* Default-iPhone6.png in Resources */,
 				50143DA41DD9FA7D003093FC /* Assets.xcassets in Resources */,
 				50143DB51DDA04B3003093FC /* parclist.json in Resources */,
@@ -284,7 +361,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		505B63071E3A2E55002A4308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50F86B961E48894F0023B93B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run f77d5b8fa15396a2ed3df5d5267c7a477c22bf50 96566c8cc5087494c9fe45787ee38adc1b3169bf5baba31199f66785817a8c5e";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		50143D901DD9FA7D003093FC /* Sources */ = {
@@ -303,7 +403,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		505B63051E3A2E55002A4308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505B630C1E3A2E55002A4308 /* parcspiritUITests.m in Sources */,
+				505B63161E3A2EA5002A4308 /* UItest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		505B630F1E3A2E55002A4308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50143D931DD9FA7D003093FC /* parcspirit */;
+			targetProxy = 505B630E1E3A2E55002A4308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		50143DA01DD9FA7D003093FC /* Main.storyboard */ = {
@@ -419,7 +536,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = NV6F6RZ362;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = parcspirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -433,6 +555,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = NV6F6RZ362;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = parcspirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -440,6 +566,45 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
+		};
+		505B63111E3A2E55002A4308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X27SL945HP;
+				INFOPLIST_FILE = parcspiritUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mtchotchoe.parcspiritUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = parcspirit;
+			};
+			name = Debug;
+		};
+		505B63121E3A2E55002A4308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X27SL945HP;
+				INFOPLIST_FILE = parcspiritUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mtchotchoe.parcspiritUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = parcspirit;
+			};
+			name = Release;
+		};
+		505B63131E3A2E55002A4308 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X27SL945HP;
+				INFOPLIST_FILE = parcspiritUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.mtchotchoe.parcspiritUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = parcspirit;
+			};
+			name = AppStore;
 		};
 		50D33D6D1DE64B780073EE11 /* AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -489,6 +654,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = NV6F6RZ362;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = parcspirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -516,6 +685,16 @@
 				50143DAC1DD9FA7D003093FC /* Debug */,
 				50143DAD1DD9FA7D003093FC /* Release */,
 				50D33D6E1DE64B780073EE11 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AppStore;
+		};
+		505B63101E3A2E55002A4308 /* Build configuration list for PBXNativeTarget "parcspiritUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505B63111E3A2E55002A4308 /* Debug */,
+				505B63121E3A2E55002A4308 /* Release */,
+				505B63131E3A2E55002A4308 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = AppStore;

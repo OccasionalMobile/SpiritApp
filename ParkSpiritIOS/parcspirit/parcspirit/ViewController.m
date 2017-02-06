@@ -7,12 +7,18 @@
 //
 
 #import "ViewController.h"
+#import <Crashlytics/Crashlytics.h>
 
+/*
 #define SegmentVefa 0
 #define SegmentLocation 1
 #define SegmentAchieved 2
 #define SegmentCEM 3
 #define SegmentAll 4
+*/
+#define SegmentListe 0
+#define SegmentMap 0
+
 
 #define PinVefa 1
 #define PinLocation 2
@@ -40,6 +46,16 @@
     [self prepareTheMap ];
     _isfirstLaunch = true;
     
+    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.frame = CGRectMake(20, 50, 100, 30);
+    [button setTitle:@"Crash" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(crashButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    
+}
+- (IBAction)crashButtonTapped:(id)sender {
+    [[Crashlytics sharedInstance] crash];
 }
 
 
@@ -61,6 +77,8 @@
     
     [_POITableView reloadData];
 
+    
+    
 }
 
 -(void)initcontext
@@ -79,7 +97,7 @@
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender {
     
     NSString * catKey;
-    
+    /*
     if (sender.selectedSegmentIndex == SegmentVefa) {
         _currentCategorie = keyVEFA;
         catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
@@ -112,6 +130,7 @@
         [_VefaView setHidden:true];
         [_AllView setHidden:false];
     }
+    */
     
     [_CategoryLabel setText:catKey];
     [_POITableView reloadData];
@@ -288,7 +307,7 @@
     }
     annov.canShowCallout = YES;
     annov.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-    UIImage *im =[UIImage imageNamed:@"POI.png"];
+    UIImage *im =[UIImage imageNamed:@"LOGO_Map.png"];
     [annov setImage:im];
 
     //annov.pinTintColor = [UIColor blueColor];

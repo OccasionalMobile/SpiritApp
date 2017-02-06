@@ -22,6 +22,13 @@
 @property (weak, nonatomic) IBOutlet UIView *AchieveView;
 @property (weak, nonatomic) IBOutlet UIView *CEMView;
  */
+@property (weak, nonatomic) IBOutlet UIButton *VEFASelectorButton;
+@property (weak, nonatomic) IBOutlet UIButton *AchievedSelectorButton;
+@property (weak, nonatomic) IBOutlet UIButton *CEMSelectorButton;
+@property (weak, nonatomic) IBOutlet UIButton *LocationSelectorButton;
+
+
+
 @property (weak, nonatomic) IBOutlet UIView *AllView;
 @property (weak, nonatomic) IBOutlet UITableView *POITableView;
 
@@ -35,6 +42,14 @@
 
 
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender;
+
+- (IBAction)VEFAButtonPushed:(id)sender;
+- (IBAction)AchevedButtonPushed:(id)sender;
+- (IBAction)CEMButtonPushed:(id)sender;
+- (IBAction)LocationButtonPushed:(id)sender;
+
+
+
 
 @end
 

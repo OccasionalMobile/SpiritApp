@@ -17,7 +17,7 @@
 #define SegmentAll 4
 */
 #define SegmentListe 0
-#define SegmentMap 0
+#define SegmentMap 1
 
 
 #define PinVefa 1
@@ -46,17 +46,9 @@
     [self prepareTheMap ];
     _isfirstLaunch = true;
     
-    UIButton* button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    button.frame = CGRectMake(20, 50, 100, 30);
-    [button setTitle:@"Crash" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(crashButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-    
-    
+
 }
-- (IBAction)crashButtonTapped:(id)sender {
-    [[Crashlytics sharedInstance] crash];
-}
+
 
 
 - (void)didReceiveMemoryWarning {
@@ -97,6 +89,21 @@
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender {
     
     NSString * catKey;
+    
+    if (sender.selectedSegmentIndex == SegmentListe) {
+        //_currentCategorie = keyVEFA;
+        //catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
+        _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
+        
+        [_VefaView setHidden:false];
+        [_AllView setHidden:true];
+    }else
+    {
+        catKey = @"Tous nos parcs";
+        [_VefaView setHidden:true];
+        [_AllView setHidden:false];
+    }
+    
     /*
     if (sender.selectedSegmentIndex == SegmentVefa) {
         _currentCategorie = keyVEFA;
@@ -137,6 +144,25 @@
     
 }
 
+- (IBAction)VEFAButtonPushed:(id)sender {
+    [_VEFASelectorButton setSelected:![_VEFASelectorButton isSelected]];
+}
+
+- (IBAction)AchevedButtonPushed:(id)sender {
+    [_AchievedSelectorButton setSelected:![_AchievedSelectorButton isSelected]];
+
+}
+
+- (IBAction)CEMButtonPushed:(id)sender {
+    [_CEMSelectorButton setSelected:![_CEMSelectorButton isSelected]];
+
+}
+
+- (IBAction)LocationButtonPushed:(id)sender {
+    [_LocationSelectorButton setSelected:![_LocationSelectorButton isSelected]];
+
+}
+
 #pragma mark Tableview dataSource -
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -147,6 +173,8 @@
 {
     NSString * catKey;
     NSInteger nbRow = 0;
+    
+    /*
     
     if (_ViewSelector.selectedSegmentIndex == SegmentVefa) {
         catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
@@ -163,6 +191,8 @@
     }else
     return 0;
 
+     */
+    
     return nbRow;
 }
 

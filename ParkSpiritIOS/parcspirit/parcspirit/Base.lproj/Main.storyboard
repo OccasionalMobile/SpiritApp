@@ -109,35 +109,57 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.38823529410000002" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="I2W-eA-hN7">
-                                <rect key="frame" x="0.0" y="135" width="375" height="39"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.792156862745098" green="0.18823529411764706" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A0-qx-imC">
                                 <rect key="frame" x="38" y="64" width="70" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="V.E.F.A">
                                     <color key="titleShadowColor" red="1" green="0.1783301763" blue="0.15847326070000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <state key="selected" title="V.E.F.A">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VEFAButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USf-TB-ire"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aay-De-qqR">
                                 <rect key="frame" x="112" y="64" width="70" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Achevés"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="AchevedButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NPs-Al-rNS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWJ-oC-57B">
                                 <rect key="frame" x="183" y="64" width="70" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="C.E.M"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="C.E.M">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CEMButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="smn-ad-I7c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhh-ot-NrU">
                                 <rect key="frame" x="255" y="64" width="70" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Location"/>
+                                <state key="selected">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="LocationButtonPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jnm-sl-nFF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -146,10 +168,13 @@
                     <navigationItem key="navigationItem" id="XDK-W3-NCe"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="AchievedSelectorButton" destination="Aay-De-qqR" id="XY9-5O-f8N"/>
                         <outlet property="AllView" destination="BTb-HB-T2K" id="Omq-zD-qEm"/>
-                        <outlet property="CategoryLabel" destination="I2W-eA-hN7" id="Hez-dr-QgZ"/>
+                        <outlet property="CEMSelectorButton" destination="UWJ-oC-57B" id="drx-5c-YSe"/>
+                        <outlet property="LocationSelectorButton" destination="Rhh-ot-NrU" id="DeX-gU-3Ag"/>
                         <outlet property="MapView" destination="f6A-9s-d3u" id="IPy-0j-6X4"/>
                         <outlet property="POITableView" destination="Mdk-gg-xW3" id="fSa-pC-qT2"/>
+                        <outlet property="VEFASelectorButton" destination="8A0-qx-imC" id="ylO-Hh-uOO"/>
                         <outlet property="VefaView" destination="Q3Q-LB-Saq" id="pZj-WP-nJo"/>
                         <outlet property="ViewSelector" destination="ITJ-dv-zVN" id="NOH-au-A0B"/>
                         <segue destination="c7t-ha-oaG" kind="show" identifier="showPoiDetails" id="Rar-TR-Pbn"/>

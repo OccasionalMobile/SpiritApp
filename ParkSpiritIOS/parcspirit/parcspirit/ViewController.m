@@ -32,6 +32,8 @@
 @property (strong,nonatomic) NSString * currentCategorie;
 
 @property BOOL isfirstLaunch;
+@property NSString * catKey;
+
 @end
 
 @implementation ViewController
@@ -41,6 +43,7 @@
     [_VefaView setHidden:false]; // a l'arrivé on affiche que la premiere vue
     [_AllView setHidden:true];
     _POIDictionnary = [[NSDictionary alloc] init];
+    _localPOIArray = [[NSMutableArray alloc] init];
     [_MapView setDelegate:self];
     _selectedPin = 0;
     [self prepareTheMap ];
@@ -56,11 +59,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    
+}
 
 -(void)viewDidAppear:(BOOL)animated{
     
-    //[[RequestManager currentRequestManager] downloadParcList];
-    //[[DataManager currentDataManager] getLocalData];
     
     if (_isfirstLaunch) {
         [self initcontext];
@@ -80,7 +85,7 @@
     NSString * catKey;
     _currentCategorie = keyVEFA;
     catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
-    _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
+    //_localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
     [_CategoryLabel setText:catKey];
     
     [self addPOIToTheMap ];
@@ -93,7 +98,6 @@
     if (sender.selectedSegmentIndex == SegmentListe) {
         //_currentCategorie = keyVEFA;
         //catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
-        _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
         
         [_VefaView setHidden:false];
         [_AllView setHidden:true];
@@ -144,25 +148,68 @@
     
 }
 
+
+#pragma mark Selection des parcs -
+
 - (IBAction)VEFAButtonPushed:(id)sender {
     [_VEFASelectorButton setSelected:![_VEFASelectorButton isSelected]];
+    
+    if ([_VEFASelectorButton isSelected]) {
+        [self addPoiForKey:keyVEFA];
+    } else {
+        [self removePoiForKey:keyVEFA];
+    }
+    
+    [_POITableView reloadData];
 }
+
 
 - (IBAction)AchevedButtonPushed:(id)sender {
     [_AchievedSelectorButton setSelected:![_AchievedSelectorButton isSelected]];
-
+    
+    if ([_AchievedSelectorButton isSelected]) {
+        [self addPoiForKey:keyAchieved];
+    } else {
+        [self removePoiForKey:keyAchieved];
+    }
+    
+    [_POITableView reloadData];
 }
 
 - (IBAction)CEMButtonPushed:(id)sender {
     [_CEMSelectorButton setSelected:![_CEMSelectorButton isSelected]];
-
+    if ([_CEMSelectorButton isSelected]) {
+        [self addPoiForKey:keyCEM];
+    } else {
+        [self removePoiForKey:keyCEM];
+    }
+    [_POITableView reloadData];
 }
 
 - (IBAction)LocationButtonPushed:(id)sender {
     [_LocationSelectorButton setSelected:![_LocationSelectorButton isSelected]];
-
+    if ([_LocationSelectorButton isSelected]) {
+        [self addPoiForKey:keyLocation];
+    } else {
+        [self removePoiForKey:keyLocation];
+    }
+    [_POITableView reloadData];
 }
 
+
+-(void)removePoiForKey:(NSString *)key
+{
+    _catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:key];
+    [_localPOIArray removeObjectsInArray:[[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:_catKey]]];
+    
+}
+
+-(void)addPoiForKey:(NSString *)key
+{
+    _catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:key];
+    [_localPOIArray addObjectsFromArray:[[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:_catKey]]];
+    
+}
 #pragma mark Tableview dataSource -
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -173,25 +220,7 @@
 {
     NSString * catKey;
     NSInteger nbRow = 0;
-    
-    /*
-    
-    if (_ViewSelector.selectedSegmentIndex == SegmentVefa) {
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
-        nbRow = [[_POIDictionnary objectForKey:catKey] count];
-    }else if (_ViewSelector.selectedSegmentIndex == SegmentLocation) {
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyLocation];
-        nbRow = [[_POIDictionnary objectForKey:catKey] count];
-    }else if (_ViewSelector.selectedSegmentIndex == SegmentAchieved) {
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyAchieved];
-        nbRow = [[_POIDictionnary objectForKey:catKey] count];
-    }else if (_ViewSelector.selectedSegmentIndex == SegmentCEM) {
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyCEM];
-        nbRow = [[_POIDictionnary objectForKey:catKey] count];
-    }else
-    return 0;
-
-     */
+    nbRow = [_localPOIArray count];
     
     return nbRow;
 }
@@ -213,7 +242,7 @@
          */
         NSDictionary * POI = [_localPOIArray objectAtIndex:[indexPath row]];
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cellIdentifier"] ;
-    [cell.textLabel setFont:[UIFont fontWithName:@"HelveticaNeue" size:14]];
+        [cell.textLabel setFont:[UIFont fontWithName:@"HelveticaNeue" size:14]];
         [cell.textLabel setNumberOfLines:2];
         [cell.textLabel setText:[POI objectForKey:@"name"]];
         cell.selectionStyle = UITableViewCellSelectionStyleNone;

@@ -38,7 +38,7 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *ViewSelector;
 
 @property (strong, nonatomic) NSDictionary *POIDictionnary;
-@property (strong, nonatomic) NSArray *localPOIArray;
+@property (strong, nonatomic) NSMutableArray *localPOIArray;
 
 
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender;
@@ -47,7 +47,6 @@
 - (IBAction)AchevedButtonPushed:(id)sender;
 - (IBAction)CEMButtonPushed:(id)sender;
 - (IBAction)LocationButtonPushed:(id)sender;
-
 
 
 

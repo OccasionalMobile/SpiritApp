@@ -55,13 +55,28 @@
     NSError * dlError;
     NSString * urlString = [NSString stringWithFormat:@"https://drive.google.com/uc?export=download&id=0B8kYg_hBEFpbZFUwNVE3bjVGZU0"];
     NSURL * versionUrl = [[NSURL alloc] initWithString:urlString];
-    NSData * versionData = [NSData dataWithContentsOfURL:versionUrl];
+    //NSData * versionData = [NSData dataWithContentsOfURL:versionUrl];
+    
+    NSURLResponse* urlResponse;
+    NSError* error;
+    NSMutableURLRequest* urlRequest = [NSMutableURLRequest requestWithURL:versionUrl cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10];
+    NSData* versionData = [NSURLConnection sendSynchronousRequest:urlRequest returningResponse:&urlResponse error:&error];
+    
+    
     NSDictionary * dic;
     if (versionData) {
         dic = [NSJSONSerialization JSONObjectWithData:versionData
                                               options:kNilOptions
                                                 error:&dlError];
     }
+    
+    
+    
+    
+    
+
+    
+    
     
     return dic;
     

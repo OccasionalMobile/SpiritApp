@@ -49,7 +49,8 @@
     _tmpParcList = [NSDictionary dictionaryWithDictionary:[dlDic objectForKey:@"kml"]];
 
     if (_tmpParcList && [_tmpParcList count]>0) {
-        [self storeParcData:_tmpParcList];// je stocke en local au cas oou 
+        [self storeParcData:_tmpParcList];// je stocke en local au cas oou
+        [self storeLastUpdateDate];
         [self simplifyData];
         [self setRequestResult:true];
         return true;
@@ -129,7 +130,7 @@
         
         if ([newDate compare:lastDate] == NSOrderedDescending) {//La nouvelle date est plus recente donc je dl
             shouldDL = true;
-        }else
+        }else// la version stocker en local est plus récente que celle en ligne pas besoin de dl
         {
             shouldDL =false;
         }

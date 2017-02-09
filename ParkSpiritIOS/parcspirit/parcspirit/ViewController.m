@@ -30,6 +30,10 @@
 @property (strong,nonatomic) NSDictionary * selectedPoi;
 @property (strong,nonatomic) NSString * nextTitle;
 @property (strong,nonatomic) NSString * currentCategorie;
+@property (strong,nonatomic) NSMutableArray * VefaPoiArray;
+@property (strong,nonatomic) NSMutableArray * LocationPoiArray;
+@property (strong,nonatomic) NSMutableArray * AchievedPoiArray;
+@property (strong,nonatomic) NSMutableArray * CEMPoiArray;
 
 @property BOOL isfirstLaunch;
 @property NSString * catKey;
@@ -44,6 +48,14 @@
     [_AllView setHidden:true];
     _POIDictionnary = [[NSDictionary alloc] init];
     _localPOIArray = [[NSMutableArray alloc] init];
+    
+    _VefaPoiArray = [[NSMutableArray alloc] init];
+    _LocationPoiArray = [[NSMutableArray alloc] init];
+    _AchievedPoiArray = [[NSMutableArray alloc] init];
+    _CEMPoiArray = [[NSMutableArray alloc] init];
+
+    
+    
     [_MapView setDelegate:self];
     _selectedPin = 0;
     [self prepareTheMap ];
@@ -156,8 +168,11 @@
     
     if ([_VEFASelectorButton isSelected]) {
         [self addPoiForKey:keyVEFA];
+        [self addPoiToTheMapForKey:keyVEFA];
     } else {
         [self removePoiForKey:keyVEFA];
+        [self removePoiFromTheMapForKey:keyVEFA];
+
     }
     
     [_POITableView reloadData];
@@ -169,8 +184,10 @@
     
     if ([_AchievedSelectorButton isSelected]) {
         [self addPoiForKey:keyAchieved];
+        [self addPoiToTheMapForKey:keyAchieved];
     } else {
         [self removePoiForKey:keyAchieved];
+        [self removePoiFromTheMapForKey:keyAchieved];
     }
     
     [_POITableView reloadData];
@@ -180,8 +197,10 @@
     [_CEMSelectorButton setSelected:![_CEMSelectorButton isSelected]];
     if ([_CEMSelectorButton isSelected]) {
         [self addPoiForKey:keyCEM];
+        [self addPoiToTheMapForKey:keyCEM];
     } else {
         [self removePoiForKey:keyCEM];
+        [self removePoiFromTheMapForKey:keyCEM];
     }
     [_POITableView reloadData];
 }
@@ -190,11 +209,15 @@
     [_LocationSelectorButton setSelected:![_LocationSelectorButton isSelected]];
     if ([_LocationSelectorButton isSelected]) {
         [self addPoiForKey:keyLocation];
+        [self addPoiToTheMapForKey:keyLocation];
     } else {
         [self removePoiForKey:keyLocation];
+        [self removePoiFromTheMapForKey:keyLocation];
     }
     [_POITableView reloadData];
 }
+
+#pragma mark Ajout des parc à la liste  -
 
 
 -(void)removePoiForKey:(NSString *)key
@@ -204,13 +227,65 @@
     
 }
 
+
 -(void)addPoiForKey:(NSString *)key
 {
     _catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:key];
     [_localPOIArray addObjectsFromArray:[[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:_catKey]]];
     
 }
+
+
+-(void)addPoiToTheMapForKey:(NSString *)key
+{
+ 
+    NSArray * annoArray;// = [[NSArray alloc] init];
+    
+    if ([key isEqualToString:keyVEFA]) {
+        annoArray = [NSArray arrayWithArray:_VefaPoiArray];
+    }
+    else  if ([key isEqualToString:keyLocation]) {
+        annoArray = [NSArray arrayWithArray:_LocationPoiArray];
+    }
+    else  if ([key isEqualToString:keyCEM]) {
+        annoArray = [NSArray arrayWithArray:_CEMPoiArray];
+    }
+    else  if ([key isEqualToString:keyAchieved]) {
+        annoArray = [NSArray arrayWithArray:_AchievedPoiArray];
+    }
+    
+        
+        
+    [_MapView addAnnotations:annoArray];
+
+    
+}
+
+-(void)removePoiFromTheMapForKey:(NSString *)key
+{
+    NSArray * annoArray;// = [[NSArray alloc] init];
+    
+    if ([key isEqualToString:keyVEFA]) {
+        annoArray = [NSArray arrayWithArray:_VefaPoiArray];
+    }
+    else  if ([key isEqualToString:keyLocation]) {
+        annoArray = [NSArray arrayWithArray:_LocationPoiArray];
+    }
+    else  if ([key isEqualToString:keyCEM]) {
+        annoArray = [NSArray arrayWithArray:_CEMPoiArray];
+    }
+    else  if ([key isEqualToString:keyAchieved]) {
+        annoArray = [NSArray arrayWithArray:_AchievedPoiArray];
+    }
+    
+    
+    
+    [_MapView removeAnnotations:annoArray];
+
+}
+
 #pragma mark Tableview dataSource -
+
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     return 1;
@@ -302,7 +377,7 @@
         point.coordinate =pointCC;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinVefa;
-        [_MapView addAnnotation:point];
+        [_VefaPoiArray addObject:point];
 
     }
     
@@ -316,7 +391,7 @@
         point.coordinate =pointCC;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinLocation;
-        [_MapView addAnnotation:point];
+        [_LocationPoiArray addObject:point];
         
     }
     
@@ -330,7 +405,7 @@
         point.PoiDic = PoiDic;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinAchieved;
-        [_MapView addAnnotation:point];
+        [_AchievedPoiArray addObject:point];
         
     }
     
@@ -343,11 +418,9 @@
         point.PoiDic = PoiDic;
         point.title = [PoiDic objectForKey:@"name"];
         point.type = PinCEM;
-        [_MapView addAnnotation:point];
-        
+        [_CEMPoiArray addObject:point];
+
     }
-    
-    
     
     
 }

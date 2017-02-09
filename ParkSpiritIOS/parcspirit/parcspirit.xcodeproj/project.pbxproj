@@ -142,21 +142,8 @@
 		50143D8B1DD9FA7C003093FC = {
 			isa = PBXGroup;
 			children = (
+				507C304F1E4B7E1C0074D853 /* Icones */,
 				505B63031E3A2E27002A4308 /* UItest.m */,
-				50D33D8F1DE666D60073EE11 /* Icon-40@2x.png */,
-				50D33D901DE666D60073EE11 /* Icon-Small@2x.png */,
-				50D33D891DE6648C0073EE11 /* Icon-40.png */,
-				50D33D8A1DE6648C0073EE11 /* Icon-60.png */,
-				50D33D8B1DE6648C0073EE11 /* Icon-60@2x.png */,
-				50D33D8C1DE6648C0073EE11 /* Icon-Small.png */,
-				50D33D8D1DE6648C0073EE11 /* Icon.png */,
-				50D33D8E1DE6648C0073EE11 /* Icon@2x.png */,
-				50D33D7D1DE663860073EE11 /* Icon-40.png */,
-				50D33D7E1DE663860073EE11 /* Icon-60.png */,
-				50D33D7F1DE663860073EE11 /* Icon-60@2x.png */,
-				50D33D801DE663860073EE11 /* Icon-Small.png */,
-				50D33D811DE663860073EE11 /* Icon.png */,
-				50D33D821DE663860073EE11 /* Icon@2x.png */,
 				50D33D6B1DE60FDA0073EE11 /* ParcImages.xcassets */,
 				50E02BF91E48A88300F93526 /* Fabric.framework */,
 				50E02BFA1E48A88300F93526 /* Crashlytics.framework */,
@@ -179,20 +166,15 @@
 		50143D961DD9FA7D003093FC /* parcspirit */ = {
 			isa = PBXGroup;
 			children = (
+				507C30511E4B7E620074D853 /* Defaults */,
+				507C30501E4B7E370074D853 /* ViewController */,
 				50C8AC0C1E044150006FCF08 /* POI.png */,
 				505B63011E376818002A4308 /* LOGO_Map.png */,
 				50536D6C1DE5F2A500AEC872 /* Spirit_Images */,
 				50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */,
-				50F7E61A1DE3919300AB6F68 /* Default-iPhone6.png */,
-				50F7E61B1DE3919300AB6F68 /* Default-iPhone6Plus.png */,
-				50F7E61C1DE3919300AB6F68 /* Default.png */,
-				50F7E61D1DE3919300AB6F68 /* Default@2x.png */,
-				50F7E6171DE3901A00AB6F68 /* Default-568h@2x.png */,
 				50143DB31DDA0481003093FC /* DataManagement */,
 				50143D9A1DD9FA7D003093FC /* AppDelegate.h */,
 				50143D9B1DD9FA7D003093FC /* AppDelegate.m */,
-				50143D9D1DD9FA7D003093FC /* ViewController.h */,
-				50143D9E1DD9FA7D003093FC /* ViewController.m */,
 				50143DA01DD9FA7D003093FC /* Main.storyboard */,
 				50143DA31DD9FA7D003093FC /* Assets.xcassets */,
 				50143DA51DD9FA7D003093FC /* LaunchScreen.storyboard */,
@@ -202,10 +184,6 @@
 				50143DB91DDA1FA6003093FC /* Constant.h */,
 				50C3BDE11DDB843600BC3682 /* PoiAnnotation.h */,
 				50C3BDE21DDB843600BC3682 /* PoiAnnotation.m */,
-				50C3BDE41DDC97C900BC3682 /* POIDetailViewController.h */,
-				50C3BDE51DDC97C900BC3682 /* POIDetailViewController.m */,
-				50F77D9E1DE220B600F41367 /* InitDataViewController.h */,
-				50F77D9F1DE220B600F41367 /* InitDataViewController.m */,
 				50C8AC0E1E044225006FCF08 /* SpiritAnnotationView.h */,
 				50C8AC0F1E044225006FCF08 /* SpiritAnnotationView.m */,
 			);
@@ -248,6 +226,52 @@
 				505B630D1E3A2E55002A4308 /* Info.plist */,
 			);
 			path = parcspiritUITests;
+			sourceTree = "<group>";
+		};
+		507C304F1E4B7E1C0074D853 /* Icones */ = {
+			isa = PBXGroup;
+			children = (
+				50D33D8F1DE666D60073EE11 /* Icon-40@2x.png */,
+				50D33D901DE666D60073EE11 /* Icon-Small@2x.png */,
+				50D33D891DE6648C0073EE11 /* Icon-40.png */,
+				50D33D8A1DE6648C0073EE11 /* Icon-60.png */,
+				50D33D8B1DE6648C0073EE11 /* Icon-60@2x.png */,
+				50D33D8C1DE6648C0073EE11 /* Icon-Small.png */,
+				50D33D8D1DE6648C0073EE11 /* Icon.png */,
+				50D33D8E1DE6648C0073EE11 /* Icon@2x.png */,
+				50D33D7D1DE663860073EE11 /* Icon-40.png */,
+				50D33D7E1DE663860073EE11 /* Icon-60.png */,
+				50D33D7F1DE663860073EE11 /* Icon-60@2x.png */,
+				50D33D801DE663860073EE11 /* Icon-Small.png */,
+				50D33D811DE663860073EE11 /* Icon.png */,
+				50D33D821DE663860073EE11 /* Icon@2x.png */,
+			);
+			name = Icones;
+			sourceTree = "<group>";
+		};
+		507C30501E4B7E370074D853 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50143D9D1DD9FA7D003093FC /* ViewController.h */,
+				50143D9E1DD9FA7D003093FC /* ViewController.m */,
+				50C3BDE41DDC97C900BC3682 /* POIDetailViewController.h */,
+				50C3BDE51DDC97C900BC3682 /* POIDetailViewController.m */,
+				50F77D9E1DE220B600F41367 /* InitDataViewController.h */,
+				50F77D9F1DE220B600F41367 /* InitDataViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		507C30511E4B7E620074D853 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				50F7E61A1DE3919300AB6F68 /* Default-iPhone6.png */,
+				50F7E61B1DE3919300AB6F68 /* Default-iPhone6Plus.png */,
+				50F7E61C1DE3919300AB6F68 /* Default.png */,
+				50F7E61D1DE3919300AB6F68 /* Default@2x.png */,
+				50F7E6171DE3901A00AB6F68 /* Default-568h@2x.png */,
+			);
+			name = Defaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

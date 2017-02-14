@@ -83,6 +83,7 @@
         [self initcontext];
         _isfirstLaunch = false;
     }
+    [self VEFAButtonPushed:_VEFASelectorButton];
     
     [_POITableView reloadData];
 

@@ -35,6 +35,12 @@
 @property (strong,nonatomic) NSMutableArray * AchievedPoiArray;
 @property (strong,nonatomic) NSMutableArray * CEMPoiArray;
 
+@property BOOL isVefaSelected;
+@property BOOL isLocationSelected;
+@property BOOL isAchievedSelected;
+@property BOOL isCEMSelected;
+
+
 @property BOOL isfirstLaunch;
 @property NSString * catKey;
 
@@ -61,6 +67,11 @@
     [self prepareTheMap ];
     _isfirstLaunch = true;
     
+    _isVefaSelected = NO;
+    _isLocationSelected = NO;
+    _isAchievedSelected = NO;
+    _isCEMSelected = NO;
+    
 
 }
 
@@ -73,7 +84,6 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    
 }
 
 -(void)viewDidAppear:(BOOL)animated{
@@ -81,10 +91,10 @@
     
     if (_isfirstLaunch) {
         [self initcontext];
+        [self VEFAButtonPushed:_VEFASelectorButton];
+
         _isfirstLaunch = false;
     }
-    [self VEFAButtonPushed:_VEFASelectorButton];
-    
     [_POITableView reloadData];
 
     
@@ -121,40 +131,7 @@
         [_AllView setHidden:false];
     }
     
-    /*
-    if (sender.selectedSegmentIndex == SegmentVefa) {
-        _currentCategorie = keyVEFA;
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
-        _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
-        
-        [_VefaView setHidden:false];
-        [_AllView setHidden:true];
-    }else if (sender.selectedSegmentIndex == SegmentLocation)
-    {
-        _currentCategorie = keyLocation;
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyLocation];
-        _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
-        [_VefaView setHidden:false];
-        [_AllView setHidden:true];
-    }else if (sender.selectedSegmentIndex == SegmentAchieved) {
-        _currentCategorie = keyAchieved;
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyAchieved];
-        _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
-        [_VefaView setHidden:false];
-        [_AllView setHidden:true];
-    }else if (sender.selectedSegmentIndex == SegmentCEM) {
-        _currentCategorie = keyCEM;
-        catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyCEM];
-        _localPOIArray = [[NSArray alloc] initWithArray:[_POIDictionnary objectForKey:catKey]];
-        [_VefaView setHidden:false];
-        [_AllView setHidden:true];
-    }else
-    {
-        catKey = @"Tous nos parcs";
-        [_VefaView setHidden:true];
-        [_AllView setHidden:false];
-    }
-    */
+
     
     [_CategoryLabel setText:catKey];
     [_POITableView reloadData];
@@ -165,8 +142,16 @@
 #pragma mark Selection des parcs -
 
 - (IBAction)VEFAButtonPushed:(id)sender {
-    [_VEFASelectorButton setSelected:![_VEFASelectorButton isSelected]];
+    _isVefaSelected = !_isVefaSelected;
     
+    if (![self checkIfAnyButtonSelected])
+    {
+        _isVefaSelected = !_isVefaSelected;
+        return;
+        
+    }
+    [_VEFASelectorButton setSelected:![_VEFASelectorButton isSelected]];
+
     if ([_VEFASelectorButton isSelected]) {
         [self addPoiForKey:keyVEFA];
         [self addPoiToTheMapForKey:keyVEFA];
@@ -181,8 +166,16 @@
 
 
 - (IBAction)AchevedButtonPushed:(id)sender {
-    [_AchievedSelectorButton setSelected:![_AchievedSelectorButton isSelected]];
+    _isAchievedSelected = !_isAchievedSelected;
+    if (![self checkIfAnyButtonSelected])
+    {
+        _isAchievedSelected = !_isAchievedSelected;
+        return;
+
+    }
     
+    [_AchievedSelectorButton setSelected:![_AchievedSelectorButton isSelected]];
+
     if ([_AchievedSelectorButton isSelected]) {
         [self addPoiForKey:keyAchieved];
         [self addPoiToTheMapForKey:keyAchieved];
@@ -195,7 +188,17 @@
 }
 
 - (IBAction)CEMButtonPushed:(id)sender {
+    _isCEMSelected = !_isCEMSelected;
+    
+    if (![self checkIfAnyButtonSelected])
+    {
+        _isCEMSelected = !_isCEMSelected;
+        return;
+        
+    }
     [_CEMSelectorButton setSelected:![_CEMSelectorButton isSelected]];
+
+
     if ([_CEMSelectorButton isSelected]) {
         [self addPoiForKey:keyCEM];
         [self addPoiToTheMapForKey:keyCEM];
@@ -207,6 +210,15 @@
 }
 
 - (IBAction)LocationButtonPushed:(id)sender {
+    _isLocationSelected = !_isLocationSelected;
+    
+    if (![self checkIfAnyButtonSelected])
+    {
+        _isLocationSelected = !_isLocationSelected;
+        return;
+        
+    }
+    
     [_LocationSelectorButton setSelected:![_LocationSelectorButton isSelected]];
     if ([_LocationSelectorButton isSelected]) {
         [self addPoiForKey:keyLocation];
@@ -217,7 +229,13 @@
     }
     [_POITableView reloadData];
 }
-
+-(BOOL)checkIfAnyButtonSelected
+{
+    BOOL isOneSelected = NO;
+    isOneSelected = _isVefaSelected || _isLocationSelected || _isAchievedSelected || _isCEMSelected;
+    //si au moins un bouton est sélectionné , renverra true.
+    return isOneSelected;
+}
 #pragma mark Ajout des parc à la liste  -
 
 

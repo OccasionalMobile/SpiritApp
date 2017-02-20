@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "360"
-            endingLineNumber = "360"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
             landmarkName = "-getCoordianteFromString:"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "387"
-            endingLineNumber = "387"
+            startingLineNumber = "392"
+            endingLineNumber = "392"
             landmarkName = "-addPOIToTheMap"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "496"
-            endingLineNumber = "496"
+            startingLineNumber = "501"
+            endingLineNumber = "501"
             landmarkName = "-mapView:annotationView:calloutAccessoryControlTapped:"
             landmarkType = "7">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
+            startingLineNumber = "419"
+            endingLineNumber = "419"
             landmarkName = "-addPOIToTheMap"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "482"
-            endingLineNumber = "482"
+            startingLineNumber = "487"
+            endingLineNumber = "487"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "515"
-            endingLineNumber = "515"
+            startingLineNumber = "520"
+            endingLineNumber = "520"
             landmarkName = "-prepareForSegue:sender:"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "461"
-            endingLineNumber = "461"
+            startingLineNumber = "466"
+            endingLineNumber = "466"
             landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "508855967.181583"
+            timestampString = "508872695.726145"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "397"
-            endingLineNumber = "397"
+            startingLineNumber = "402"
+            endingLineNumber = "402"
             landmarkName = "-addPOIToTheMap"
             landmarkType = "7">
          </BreakpointContent>

@@ -348,8 +348,13 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     _selectedPoi = [NSDictionary dictionaryWithDictionary:[_localPOIArray objectAtIndex:[indexPath row]]];
-    
     _nextTitle = [_selectedPoi  objectForKey:@"name"];
+
+    [Answers logCustomEventWithName:EventClickOnParc
+                   customAttributes:@{
+                                      EventInfoParcName:_nextTitle,
+                                      EventCommingFrom: EventInfoFromList}];
+    
     [self performSegueWithIdentifier:@"showPoiDetails" sender:self];
 }
 #pragma mark mapView Management  -

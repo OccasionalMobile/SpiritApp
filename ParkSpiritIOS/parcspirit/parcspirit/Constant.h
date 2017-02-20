@@ -19,3 +19,12 @@
 #define AllVEFA @"AllKey"
 
 
+/*Statistics*/
+#define EventClickOnParc @"Click on Parc"
+#define EventInfoParcName @"Parc Name"
+
+#define EventCommingFrom @"Coming From"
+#define EventInfoFromList @"Click from List"
+#define EventInfoFromMap @"Click from Map"
+
+

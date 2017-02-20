@@ -17,6 +17,7 @@
 		50143DB21DDA039E003093FC /* visual in Resources */ = {isa = PBXBuildFile; fileRef = 50143DB11DDA039E003093FC /* visual */; };
 		50143DB51DDA04B3003093FC /* parclist.json in Resources */ = {isa = PBXBuildFile; fileRef = 50143DB41DDA04B3003093FC /* parclist.json */; };
 		50143DB71DDA04E1003093FC /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50143DB61DDA04E1003093FC /* DataManager.m */; };
+		501B60D11E570BC10086B8BD /* Spirit_375_200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 501B60D01E570BC10086B8BD /* Spirit_375_200.jpg */; };
 		50536D6B1DE5F29C00AEC872 /* Spirit_parc_images.json in Resources */ = {isa = PBXBuildFile; fileRef = 50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */; };
 		50536D6D1DE5F2A500AEC872 /* Spirit_Images in Resources */ = {isa = PBXBuildFile; fileRef = 50536D6C1DE5F2A500AEC872 /* Spirit_Images */; };
 		505B63021E376818002A4308 /* LOGO_Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 505B63011E376818002A4308 /* LOGO_Map.png */; };
@@ -74,6 +75,7 @@
 		50143DB61DDA04E1003093FC /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
 		50143DB81DDA050F003093FC /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		50143DB91DDA1FA6003093FC /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		501B60D01E570BC10086B8BD /* Spirit_375_200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Spirit_375_200.jpg; path = ../../visual/Spirit_375_200.jpg; sourceTree = "<group>"; };
 		50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Spirit_parc_images.json; path = ../../Spirit_parc_images.json; sourceTree = "<group>"; };
 		50536D6C1DE5F2A500AEC872 /* Spirit_Images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Spirit_Images; path = ../../Spirit_Images; sourceTree = "<group>"; };
 		505B63011E376818002A4308 /* LOGO_Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO_Map.png; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 		507C30501E4B7E370074D853 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				501B60D01E570BC10086B8BD /* Spirit_375_200.jpg */,
 				50143D9D1DD9FA7D003093FC /* ViewController.h */,
 				50143D9E1DD9FA7D003093FC /* ViewController.m */,
 				50C3BDE41DDC97C900BC3682 /* POIDetailViewController.h */,
@@ -370,6 +373,7 @@
 				50143DA71DD9FA7D003093FC /* LaunchScreen.storyboard in Resources */,
 				50F7E6201DE3919300AB6F68 /* Default-iPhone6Plus.png in Resources */,
 				50C8AC0D1E044150006FCF08 /* POI.png in Resources */,
+				501B60D11E570BC10086B8BD /* Spirit_375_200.jpg in Resources */,
 				50D33D911DE666D60073EE11 /* Icon-40@2x.png in Resources */,
 				505B63021E376818002A4308 /* LOGO_Map.png in Resources */,
 				50F7E61F1DE3919300AB6F68 /* Default-iPhone6.png in Resources */,

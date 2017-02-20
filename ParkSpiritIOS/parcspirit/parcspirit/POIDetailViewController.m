@@ -68,6 +68,9 @@
     [_DescriptionLabel setText:_ParcDescription];
     [_LienCommercialButton setTitle:_ParcLink forState:UIControlStateNormal];
     [_parcImageView setImage:[[DataManager currentDataManager] getParcImageFromName:_ParcName andCategorie:_ParcCategorie]];
+    if (!_parcImageView.image) {
+        [_parcImageView setImage:[UIImage imageNamed:@"Spirit_375_200.jpg"]];
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

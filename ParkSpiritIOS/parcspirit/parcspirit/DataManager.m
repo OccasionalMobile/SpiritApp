@@ -218,11 +218,31 @@
     return parcImage;
 }
 
+-(UIImage *)getParcImageFromName:(NSString *)parcName
+{
+    UIImage * parcImage;
+    NSDictionary * localDic;
+    
+    if (!_imageDic || [_imageDic count]<1) {
+        [self loadImageDic];
+    }
+    
+    if (!_imageDic || [_imageDic count]<1) {
+        return nil;
+    }
+    parcImage = nil;
+
+    parcImage = [UIImage imageNamed:[_imageDic objectForKey:parcName]];
+    
+    return parcImage;
+}
+
+
 -(void)loadImageDic
 {
     
     NSError *deserializingError;
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Spirit_parc_images" ofType:@"json"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Spirit_parc_images_Full" ofType:@"json"];
     
     NSURL *localFileURL = [NSURL fileURLWithPath:filePath];
     NSData *contentOfLocalFile = [NSData dataWithContentsOfURL:localFileURL];

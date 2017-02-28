@@ -38,4 +38,5 @@
 -(void)storeParcData:(NSDictionary *)parcData;
 -(NSDictionary *)loadParcData;
 -(UIImage *)getParcImageFromName:(NSString *)parcName andCategorie:(NSString *)ParcCategorie;
+-(UIImage *)getParcImageFromName:(NSString *)parcName;
 @end

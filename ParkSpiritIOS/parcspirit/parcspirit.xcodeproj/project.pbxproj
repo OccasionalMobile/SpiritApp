@@ -25,7 +25,6 @@
 		505B63151E3A2E84002A4308 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505B63141E3A2E84002A4308 /* XCTest.framework */; };
 		505B63161E3A2EA5002A4308 /* UItest.m in Sources */ = {isa = PBXBuildFile; fileRef = 505B63031E3A2E27002A4308 /* UItest.m */; };
 		50C3BDE31DDB843600BC3682 /* PoiAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C3BDE21DDB843600BC3682 /* PoiAnnotation.m */; };
-		50C3BDE61DDC97C900BC3682 /* POIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C3BDE51DDC97C900BC3682 /* POIDetailViewController.m */; };
 		50C8AC0D1E044150006FCF08 /* POI.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C8AC0C1E044150006FCF08 /* POI.png */; };
 		50C8AC101E044225006FCF08 /* SpiritAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C8AC0F1E044225006FCF08 /* SpiritAnnotationView.m */; };
 		50D33D6C1DE60FDA0073EE11 /* ParcImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D6B1DE60FDA0073EE11 /* ParcImages.xcassets */; };
@@ -39,6 +38,8 @@
 		50D33D921DE666D60073EE11 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D33D901DE666D60073EE11 /* Icon-Small@2x.png */; };
 		50E02BFB1E48A88300F93526 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E02BF91E48A88300F93526 /* Fabric.framework */; };
 		50E02BFC1E48A88300F93526 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E02BFA1E48A88300F93526 /* Crashlytics.framework */; };
+		50E1CB371E6609C300CBD072 /* Spirit_parc_images_Full.json in Resources */ = {isa = PBXBuildFile; fileRef = 50E1CB361E6609C300CBD072 /* Spirit_parc_images_Full.json */; };
+		50E1CB391E660DB600CBD072 /* POIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E1CB381E660DB600CBD072 /* POIDetailViewController.m */; };
 		50F77D9D1DE2163500F41367 /* RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F77D9C1DE2163500F41367 /* RequestManager.m */; };
 		50F77DA01DE220B600F41367 /* InitDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F77D9F1DE220B600F41367 /* InitDataViewController.m */; };
 		50F7E6181DE3901A00AB6F68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F7E6171DE3901A00AB6F68 /* Default-568h@2x.png */; };
@@ -87,7 +88,6 @@
 		50C3BDE11DDB843600BC3682 /* PoiAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiAnnotation.h; sourceTree = "<group>"; };
 		50C3BDE21DDB843600BC3682 /* PoiAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiAnnotation.m; sourceTree = "<group>"; };
 		50C3BDE41DDC97C900BC3682 /* POIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIDetailViewController.h; sourceTree = "<group>"; };
-		50C3BDE51DDC97C900BC3682 /* POIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIDetailViewController.m; sourceTree = "<group>"; };
 		50C8AC0C1E044150006FCF08 /* POI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = POI.png; sourceTree = "<group>"; };
 		50C8AC0E1E044225006FCF08 /* SpiritAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpiritAnnotationView.h; sourceTree = "<group>"; };
 		50C8AC0F1E044225006FCF08 /* SpiritAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpiritAnnotationView.m; sourceTree = "<group>"; };
@@ -108,6 +108,8 @@
 		50D33D901DE666D60073EE11 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		50E02BF91E48A88300F93526 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		50E02BFA1E48A88300F93526 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		50E1CB361E6609C300CBD072 /* Spirit_parc_images_Full.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Spirit_parc_images_Full.json; path = ../../Spirit_parc_images_Full.json; sourceTree = "<group>"; };
+		50E1CB381E660DB600CBD072 /* POIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIDetailViewController.m; sourceTree = "<group>"; };
 		50F77D9B1DE2163500F41367 /* RequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager.h; sourceTree = "<group>"; };
 		50F77D9C1DE2163500F41367 /* RequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager.m; sourceTree = "<group>"; };
 		50F77D9E1DE220B600F41367 /* InitDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitDataViewController.h; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				505B63011E376818002A4308 /* LOGO_Map.png */,
 				50536D6C1DE5F2A500AEC872 /* Spirit_Images */,
 				50536D6A1DE5F29C00AEC872 /* Spirit_parc_images.json */,
+				50E1CB361E6609C300CBD072 /* Spirit_parc_images_Full.json */,
 				50143DB31DDA0481003093FC /* DataManagement */,
 				50143D9A1DD9FA7D003093FC /* AppDelegate.h */,
 				50143D9B1DD9FA7D003093FC /* AppDelegate.m */,
@@ -258,7 +261,7 @@
 				50143D9D1DD9FA7D003093FC /* ViewController.h */,
 				50143D9E1DD9FA7D003093FC /* ViewController.m */,
 				50C3BDE41DDC97C900BC3682 /* POIDetailViewController.h */,
-				50C3BDE51DDC97C900BC3682 /* POIDetailViewController.m */,
+				50E1CB381E660DB600CBD072 /* POIDetailViewController.m */,
 				50F77D9E1DE220B600F41367 /* InitDataViewController.h */,
 				50F77D9F1DE220B600F41367 /* InitDataViewController.m */,
 			);
@@ -372,6 +375,7 @@
 				50536D6D1DE5F2A500AEC872 /* Spirit_Images in Resources */,
 				50143DA71DD9FA7D003093FC /* LaunchScreen.storyboard in Resources */,
 				50F7E6201DE3919300AB6F68 /* Default-iPhone6Plus.png in Resources */,
+				50E1CB371E6609C300CBD072 /* Spirit_parc_images_Full.json in Resources */,
 				50C8AC0D1E044150006FCF08 /* POI.png in Resources */,
 				501B60D11E570BC10086B8BD /* Spirit_375_200.jpg in Resources */,
 				50D33D911DE666D60073EE11 /* Icon-40@2x.png in Resources */,
@@ -420,9 +424,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				50F77DA01DE220B600F41367 /* InitDataViewController.m in Sources */,
-				50C3BDE61DDC97C900BC3682 /* POIDetailViewController.m in Sources */,
 				50C8AC101E044225006FCF08 /* SpiritAnnotationView.m in Sources */,
 				50143D9F1DD9FA7D003093FC /* ViewController.m in Sources */,
+				50E1CB391E660DB600CBD072 /* POIDetailViewController.m in Sources */,
 				50143DB71DDA04E1003093FC /* DataManager.m in Sources */,
 				50F77D9D1DE2163500F41367 /* RequestManager.m in Sources */,
 				50C3BDE31DDB843600BC3682 /* PoiAnnotation.m in Sources */,
@@ -573,7 +577,7 @@
 				INFOPLIST_FILE = parcspirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.sprit.parcspirit;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.sprit.parcspirit.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -590,7 +594,7 @@
 				INFOPLIST_FILE = parcspirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.sprit.parcspirit;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.sprit.parcspirit.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -689,7 +693,7 @@
 				INFOPLIST_FILE = parcspirit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = fr.sprit.parcspirit;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.sprit.parcspirit.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = AppStore;

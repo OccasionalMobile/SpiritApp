@@ -16,8 +16,8 @@
 #define SegmentCEM 3
 #define SegmentAll 4
 */
-#define SegmentListe 0
-#define SegmentMap 1
+#define SegmentMap 0
+#define SegmentListe 1
 
 
 #define PinVefa 1
@@ -48,10 +48,14 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    [_VefaView setHidden:false]; // a l'arrivé on affiche que la premiere vue
-    [_AllView setHidden:true];
+    [self setTitle:@" Spirit spécialiste du Parc"];
+
+    [_VefaView setHidden:true]; // a l'arrivé on affiche que la premiere vue
+    [_AllView setHidden:false];
     _POIDictionnary = [[NSDictionary alloc] init];
     _localPOIArray = [[NSMutableArray alloc] init];
     
@@ -117,39 +121,42 @@
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender {
     
     NSString * catKey;
+
+    if (![self checkIfAnyButtonSelected])
+        return;
     
-    if (sender.selectedSegmentIndex == SegmentListe) {
+    [self refreshSelectionDisplay];
+    
+    //[_CategoryLabel setText:catKey];
+    [_POITableView reloadData];
+    
+}
+
+-(void)refreshSelectionDisplay
+{
+    if (_ViewSelector.selectedSegmentIndex == SegmentListe) {
         //_currentCategorie = keyVEFA;
         //catKey = [[[DataManager currentDataManager] categoryKeyDic] objectForKey:keyVEFA];
+        
         
         [_VefaView setHidden:false];
         [_AllView setHidden:true];
     }else
     {
-        catKey = @"Tous nos parcs";
+        
+        
         [_VefaView setHidden:true];
         [_AllView setHidden:false];
     }
     
 
-    
-    [_CategoryLabel setText:catKey];
-    [_POITableView reloadData];
-    
 }
-
-
 #pragma mark Selection des parcs -
 
 - (IBAction)VEFAButtonPushed:(id)sender {
     _isVefaSelected = !_isVefaSelected;
-    
-    if (![self checkIfAnyButtonSelected])
-    {
-        _isVefaSelected = !_isVefaSelected;
-        return;
-        
-    }
+    [self checkIfAnyButtonSelected];
+
     [_VEFASelectorButton setSelected:![_VEFASelectorButton isSelected]];
 
     if ([_VEFASelectorButton isSelected]) {
@@ -167,13 +174,8 @@
 
 - (IBAction)AchevedButtonPushed:(id)sender {
     _isAchievedSelected = !_isAchievedSelected;
-    if (![self checkIfAnyButtonSelected])
-    {
-        _isAchievedSelected = !_isAchievedSelected;
-        return;
+    [self checkIfAnyButtonSelected];
 
-    }
-    
     [_AchievedSelectorButton setSelected:![_AchievedSelectorButton isSelected]];
 
     if ([_AchievedSelectorButton isSelected]) {
@@ -189,13 +191,8 @@
 
 - (IBAction)CEMButtonPushed:(id)sender {
     _isCEMSelected = !_isCEMSelected;
-    
-    if (![self checkIfAnyButtonSelected])
-    {
-        _isCEMSelected = !_isCEMSelected;
-        return;
-        
-    }
+    [self checkIfAnyButtonSelected];
+
     [_CEMSelectorButton setSelected:![_CEMSelectorButton isSelected]];
 
 
@@ -211,14 +208,7 @@
 
 - (IBAction)LocationButtonPushed:(id)sender {
     _isLocationSelected = !_isLocationSelected;
-    
-    if (![self checkIfAnyButtonSelected])
-    {
-        _isLocationSelected = !_isLocationSelected;
-        return;
-        
-    }
-    
+    [self checkIfAnyButtonSelected];
     [_LocationSelectorButton setSelected:![_LocationSelectorButton isSelected]];
     if ([_LocationSelectorButton isSelected]) {
         [self addPoiForKey:keyLocation];
@@ -234,9 +224,17 @@
     BOOL isOneSelected = NO;
     isOneSelected = _isVefaSelected || _isLocationSelected || _isAchievedSelected || _isCEMSelected;
     //si au moins un bouton est sélectionné , renverra true.
+    if (!isOneSelected) {
+        [_VefaView setHidden:YES];
+        [_AllView setHidden:YES];
+        [_emptyParcLabel setHidden:NO];
+    }else{
+        [_emptyParcLabel setHidden:YES];
+        [self refreshSelectionDisplay];
+    }
     return isOneSelected;
 }
-#pragma mark Ajout des parc à la liste  -
+#pragma mark Ajout des parcs à la liste  -
 
 
 -(void)removePoiForKey:(NSString *)key
@@ -334,13 +332,17 @@
         /*
          *   Actually create a new cell (with an identifier so that it can be dequeued).
          */
-        NSDictionary * POI = [_localPOIArray objectAtIndex:[indexPath row]];
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cellIdentifier"] ;
-        [cell.textLabel setFont:[UIFont fontWithName:@"HelveticaNeue" size:14]];
-        [cell.textLabel setNumberOfLines:2];
-        [cell.textLabel setText:[POI objectForKey:@"name"]];
-        cell.selectionStyle = UITableViewCellSelectionStyleNone;
-        
+    NSDictionary * POI = [_localPOIArray objectAtIndex:[indexPath row]];
+    
+    UIImageView * imageView = [cell viewWithTag:1];
+    UILabel * textLabel = [cell viewWithTag:2];
+
+    UIImage * cellImg = [[DataManager currentDataManager] getParcImageFromName:[POI objectForKey:@"name"]];
+    if (cellImg) {
+        [imageView setImage:cellImg];
+    }
+    
+    [textLabel setText:[POI objectForKey:@"name"]];
 
     return cell;
 }
@@ -465,26 +467,6 @@
     annov.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
     UIImage *im =[UIImage imageNamed:@"LOGO_Map.png"];
     [annov setImage:im];
-
-    //annov.pinTintColor = [UIColor blueColor];
-    
-    
-    
-    /*
-    if ([(PoiAnnotation*)annotation type] == PinVefa) {
-        
-        annov.pinTintColor = [UIColor redColor];
-    }
-    if ([(PoiAnnotation*)annotation type] == PinLocation) {
-        annov.pinTintColor = [UIColor orangeColor];
-    }
-    if ([(PoiAnnotation*)annotation type] == PinAchieved) {
-        annov.pinTintColor = [UIColor cyanColor];
-    }
-    if ([(PoiAnnotation*)annotation type] == PinCEM) {
-        annov.pinTintColor = [UIColor purpleColor];
-    }
-    */
     
     return annov;
 }

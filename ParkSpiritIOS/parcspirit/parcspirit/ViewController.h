@@ -31,6 +31,7 @@
 
 @property (weak, nonatomic) IBOutlet UIView *AllView;
 @property (weak, nonatomic) IBOutlet UITableView *POITableView;
+@property (weak, nonatomic) IBOutlet UILabel *emptyParcLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *CategoryLabel;
  

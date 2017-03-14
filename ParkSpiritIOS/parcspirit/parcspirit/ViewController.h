@@ -41,6 +41,7 @@
 @property (strong, nonatomic) NSDictionary *POIDictionnary;
 @property (strong, nonatomic) NSMutableArray *localPOIArray;
 
+@property (weak, nonatomic) IBOutlet UIImageView *logoEmptyImView;
 
 - (IBAction)selectorValueChanged:(UISegmentedControl *)sender;
 

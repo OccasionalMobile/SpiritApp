@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G49-VO-wLy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="G49-VO-wLy">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -87,7 +87,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SAG-0c-ox7" id="BGY-qs-mYN">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spirit_375_200.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="80G-iV-n4v">
@@ -95,7 +95,7 @@
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHV-HM-9v0">
-                                                            <rect key="frame" x="100" y="0.0" width="267" height="40"/>
+                                                            <rect key="frame" x="99" y="0.0" width="266" height="40"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                             <nil key="textColor"/>
@@ -125,6 +125,10 @@
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="2ZO-6S-tWV"/>
                                         </connections>
                                     </mapView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="x2l-tU-ACD">
+                                        <rect key="frame" x="151" y="248" width="72" height="72"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
                                 </subviews>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A0-qx-imC">
@@ -204,6 +208,7 @@
                         <outlet property="VefaView" destination="Q3Q-LB-Saq" id="pZj-WP-nJo"/>
                         <outlet property="ViewSelector" destination="ITJ-dv-zVN" id="NOH-au-A0B"/>
                         <outlet property="emptyParcLabel" destination="jnl-X4-Wwa" id="0rx-X2-SvJ"/>
+                        <outlet property="logoEmptyImView" destination="x2l-tU-ACD" id="xLd-LF-6hr"/>
                         <segue destination="c7t-ha-oaG" kind="show" identifier="showPoiDetails" id="Rar-TR-Pbn"/>
                     </connections>
                 </viewController>
@@ -309,7 +314,12 @@
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="sRp-O6-f1a">
                                         <rect key="frame" x="20" y="542" width="300" height="54"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" red="0.79215686269999996" green="0.18823529410000001" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                        </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="ClickOnCommercialLink:" destination="c7t-ha-oaG" eventType="touchUpInside" id="hiP-Xt-tp6"/>
                                         </connections>
@@ -374,5 +384,6 @@
     <resources>
         <image name="Icon.png" width="57" height="57"/>
         <image name="Spirit_375_200.jpg" width="375" height="200"/>
+        <image name="logo.png" width="72" height="72"/>
     </resources>
 </document>

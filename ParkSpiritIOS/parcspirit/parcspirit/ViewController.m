@@ -52,8 +52,15 @@
 - (void)viewDidLoad {
 
     [super viewDidLoad];
-    [self setTitle:@" Spirit spécialiste du Parc"];
+    
+    //self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
+    //self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    UIFont * titleFont = [UIFont fontWithName:@"HelveticaNeue" size:12];
 
+    [self.navigationController.navigationBar
+     setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:0.88 green:0 blue:0.14 alpha:1], NSFontAttributeName : titleFont}];
+    //[UIColor colorwi]
+    [self setTitle:@" SPIRIT Entreprises, expert du Parc d’Activités"];
     [_VefaView setHidden:true]; // a l'arrivé on affiche que la premiere vue
     [_AllView setHidden:false];
     _POIDictionnary = [[NSDictionary alloc] init];
@@ -228,8 +235,10 @@
         [_VefaView setHidden:YES];
         [_AllView setHidden:YES];
         [_emptyParcLabel setHidden:NO];
+        [_logoEmptyImView setHidden:NO];
     }else{
         [_emptyParcLabel setHidden:YES];
+        [_logoEmptyImView setHidden:YES];
         [self refreshSelectionDisplay];
     }
     return isOneSelected;
@@ -340,8 +349,10 @@
     UIImage * cellImg = [[DataManager currentDataManager] getParcImageFromName:[POI objectForKey:@"name"]];
     if (cellImg) {
         [imageView setImage:cellImg];
+    }else
+    {
+        [imageView setImage:[UIImage imageNamed:@"Spirit_375_200.jpg"]];
     }
-    
     [textLabel setText:[POI objectForKey:@"name"]];
 
     return cell;
@@ -455,7 +466,8 @@
 {
     
     NSString *reuseId = @"annov";
-    //MKPinAnnotationView *annov = (MKPinAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
+    PoiAnnotation * poiAnnot = (PoiAnnotation *)annotation;
+
     MKAnnotationView *annov = (MKAnnotationView *)[mapView dequeueReusableAnnotationViewWithIdentifier:reuseId];
 
     if(!annov)
@@ -464,7 +476,21 @@
                                                reuseIdentifier:reuseId];
     }
     annov.canShowCallout = YES;
-    annov.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    
+    UIImage * callImg = [[DataManager currentDataManager] getParcImageFromName:[poiAnnot.PoiDic  objectForKey:@"name"]];
+    UIImageView * callOutImage = [[UIImageView alloc] initWithFrame:CGRectMake(0,0 , 45, 40)];
+    [callOutImage setContentMode:UIViewContentModeScaleToFill];
+    [callOutImage setImage:callImg];
+    
+    if(!callImg)
+        [callOutImage setImage:[UIImage imageNamed:@"Spirit_375_200.jpg"]];
+    
+    
+    annov.leftCalloutAccessoryView = callOutImage;
+    annov.rightCalloutAccessoryView =  [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+
+    
+    
     UIImage *im =[UIImage imageNamed:@"LOGO_Map.png"];
     [annov setImage:im];
     

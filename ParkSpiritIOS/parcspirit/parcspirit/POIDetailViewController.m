@@ -23,7 +23,7 @@
     [super viewDidLoad];
     [self setTitle:_TiltleName];
     // Do any additional setup after loading the view.
-    [[[self navigationController] navigationBar] setBackgroundColor:[UIColor redColor]];
+    //[[[self navigationController] navigationBar] setBackgroundColor:[UIColor redColor]];
     [[self parcScrollView] setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height+_LienCommercialButton.frame.origin.y+_LienCommercialButton.frame.size.height)];
     [self prepareParcInfo];
     [self refreshDisplay];
@@ -66,7 +66,7 @@
     [_InterlocuteurLabel setText:_ParcInterlocuteur];
     [_CommuneLabel setText:_ParcCommune];
     [_DescriptionLabel setText:_ParcDescription];
-    [_LienCommercialButton setTitle:_ParcLink forState:UIControlStateNormal];
+    [_LienCommercialButton setTitle:@"Documents commerciaux" forState:UIControlStateNormal];
 //    [_parcImageView setImage:[[DataManager currentDataManager] getParcImageFromName:_ParcName andCategorie:_ParcCategorie]];
     [_parcImageView setImage:[[DataManager currentDataManager] getParcImageFromName:_ParcName]];
 

@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511107027.998456"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "377"
-            endingLineNumber = "377"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
             landmarkName = "-getCoordianteFromString:"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511107027.998456"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "404"
-            endingLineNumber = "404"
+            startingLineNumber = "415"
+            endingLineNumber = "415"
             landmarkName = "-addPOIToTheMap"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,13 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511111478.790231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "513"
-            endingLineNumber = "513"
-            landmarkName = "-mapView:annotationView:calloutAccessoryControlTapped:"
-            landmarkType = "7">
+            startingLineNumber = "537"
+            endingLineNumber = "537">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -89,60 +87,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "parcspirit/InitDataViewController.m"
-            timestampString = "501443662.108011"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "-getversion"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parcspirit/InitDataViewController.m"
-            timestampString = "501443662.108011"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "-getversion"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "parcspirit/InitDataViewController.m"
-            timestampString = "501443662.108011"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "-getversion"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511107027.998456"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "431"
-            endingLineNumber = "431"
+            startingLineNumber = "442"
+            endingLineNumber = "442"
             landmarkName = "-addPOIToTheMap"
             landmarkType = "7">
          </BreakpointContent>
@@ -170,13 +120,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511111478.790231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "534"
-            endingLineNumber = "534"
-            landmarkName = "-prepareForSegue:sender:"
-            landmarkType = "7">
+            startingLineNumber = "558"
+            endingLineNumber = "558">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -202,12 +150,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511111478.790231"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "478"
-            endingLineNumber = "478"
-            landmarkName = "-mapView:viewForAnnotation:"
+            startingLineNumber = "502"
+            endingLineNumber = "502"
+            landmarkName = "-mapView:annotationView:calloutAccessoryControlTapped:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -218,11 +166,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/ViewController.m"
-            timestampString = "510005331.284704"
+            timestampString = "511107027.998456"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "414"
-            endingLineNumber = "414"
+            startingLineNumber = "425"
+            endingLineNumber = "425"
             landmarkName = "-addPOIToTheMap"
             landmarkType = "7">
          </BreakpointContent>
@@ -297,22 +245,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "parcspirit/ViewController.m"
-            timestampString = "509907243.470388"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "348"
-            endingLineNumber = "348"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "parcspirit/POIDetailViewController.m"
             timestampString = "510004877.993931"
             startingColumnNumber = "9223372036854775807"
@@ -342,7 +274,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "parcspirit/DataManager.m"
@@ -352,6 +284,22 @@
             startingLineNumber = "236"
             endingLineNumber = "236"
             landmarkName = "-getParcImageFromName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "parcspirit/ViewController.m"
+            timestampString = "511111478.790231"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
+            landmarkName = "-mapView:viewForAnnotation:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

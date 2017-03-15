@@ -87,7 +87,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SAG-0c-ox7" id="BGY-qs-mYN">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spirit_375_200.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="80G-iV-n4v">
@@ -125,10 +125,6 @@
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="2ZO-6S-tWV"/>
                                         </connections>
                                     </mapView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="x2l-tU-ACD">
-                                        <rect key="frame" x="151" y="248" width="72" height="72"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </imageView>
                                 </subviews>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8A0-qx-imC">
@@ -191,6 +187,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="Spirit_375_200.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x2l-tU-ACD">
+                                <rect key="frame" x="129" y="398" width="118" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -384,6 +384,5 @@
     <resources>
         <image name="Icon.png" width="57" height="57"/>
         <image name="Spirit_375_200.jpg" width="375" height="200"/>
-        <image name="logo.png" width="72" height="72"/>
     </resources>
 </document>

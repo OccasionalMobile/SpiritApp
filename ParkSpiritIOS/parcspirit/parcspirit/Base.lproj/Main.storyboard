@@ -174,7 +174,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" image="Spirit_375_200.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x2l-tU-ACD">
-                                <rect key="frame" x="129" y="398" width="118" height="85"/>
+                                <rect key="frame" x="129" y="162" width="118" height="85"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Aay-De-qqR">

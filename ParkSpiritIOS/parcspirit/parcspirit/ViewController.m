@@ -52,10 +52,8 @@
 - (void)viewDidLoad {
 
     [super viewDidLoad];
-    
-    //self.navigationController.navigationBar.barTintColor = [UIColor blackColor];
-    //self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-    UIFont * titleFont = [UIFont fontWithName:@"HelveticaNeue" size:12];
+
+    UIFont * titleFont = [UIFont fontWithName:@"HelveticaNeue" size:14];
 
     [self.navigationController.navigationBar
      setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor colorWithRed:0.88 green:0 blue:0.14 alpha:1], NSFontAttributeName : titleFont}];
